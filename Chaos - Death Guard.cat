@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" book="Codex: Death Guard, Index: Chaos" revision="47" battleScribeVersion="2.01" authorName="BSData team" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" book="Codex: Death Guard, Index: Chaos" revision="59" battleScribeVersion="2.01" authorName="BSData team" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="f7c7-963e-3fda-16f4" name="Plague Weapon" hidden="false">
@@ -860,17 +860,6 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="5f37-552e-d6ac-bcb2" name="Frag &amp; Krak grenades" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87f4-b484-2fb9-60f4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83de-f276-e169-c302" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="df12-04aa-ba2d-a491" name="Chaos Lord Weapon Options" hidden="false" targetId="cbb7-7e96-0482-6ecf" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -905,10 +894,46 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="3271-595c-999d-ad9f" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cb56-8c51-21dc-4e92" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="15bf-60f8-c3fb-5e2f" name="Blight Grenades" hidden="false" targetId="922e-5c7d-e439-842b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7339-cd8b-08ba-b967" name="Krak grenades" hidden="false" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6811-655c-437b-2c79" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14b0-56b9-aaf6-af87" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="74.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9765-6363-9d49-b571" name="Chaos Predator" page="0" hidden="false" collective="false" type="model">
@@ -1082,6 +1107,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="40.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1132,6 +1158,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c9f2-0a93-bb22-e49b" name="Two lascannons" hidden="false" collective="false" type="upgrade">
@@ -1159,6 +1186,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1194,10 +1222,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="27f9-8f51-6898-e962" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ef05-f8eb-7289-2cbe" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="90.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="abee-429f-503a-074f" name="Chaos Spawn" page="0" hidden="false" collective="false" type="unit">
@@ -1337,6 +1382,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1345,14 +1391,33 @@
           <costs>
             <cost name="pts" costTypeId="points" value="25.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="2.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="d89a-9b46-ae19-88fd" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="06a8-32dd-0bcd-e9dd" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c5a2-5d3b-99c9-7b99" name="Daemon Prince of Nurgle" page="0" hidden="false" collective="false" type="upgrade">
@@ -1513,6 +1578,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="1.0"/>
             <cost name="pts" costTypeId="points" value="24.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1640,10 +1706,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="8fa4-da4c-0c8d-c690" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="14dc-cfc5-4a27-94ba" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="146.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="67df-ff04-b483-f1c3" name="Defiler" page="0" hidden="false" collective="false" type="model">
@@ -1834,6 +1917,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1877,6 +1961,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="12.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1900,7 +1985,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a1f9-6d35-a433-90d9" name="Reaper autocannon options" hidden="false" collective="false" defaultSelectionEntryId="4a16-2e8e-c1c7-8890">
+        <selectionEntryGroup id="a1f9-6d35-a433-90d9" name="Reaper autocannon options" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1910,47 +1995,10 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7361-9fa9-2dc3-94c2" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="4a16-2e8e-c1c7-8890" name="Reaper autocannon" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="915b-9dbe-2cc1-dffa" name="Reaper autocannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 4"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="7"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
-                    <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="points" value="15">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="15.0"/>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="e70b-14b2-0b6a-1745" name="New EntryLink" hidden="false" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
+            <entryLink id="e70b-14b2-0b6a-1745" name="Twin lascannon" hidden="false" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1958,7 +2006,15 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
-            <entryLink id="a0a5-40b4-d658-8b6d" name="New EntryLink" hidden="false" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry">
+            <entryLink id="a0a5-40b4-d658-8b6d" name="Twin heavy bolter" hidden="false" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="066b-5977-a976-e536" name="Reaper autocannon" hidden="false" targetId="5ab4-1ee7-95ad-7e15" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2006,10 +2062,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="9e26-e120-99fc-b5cd" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1cd1-bd3a-85dc-1333" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="120.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="11.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9832-6438-ea96-d6d6" name="Sorcerer" page="" hidden="false" collective="false" type="model">
@@ -2047,7 +2120,7 @@
           <characteristics>
             <characteristic name="Cast" characteristicTypeId="5afb-9914-904b-d3b3" value="2"/>
             <characteristic name="Deny" characteristicTypeId="b5ac-9c20-5d5a-6f9b" value="1"/>
-            <characteristic name="Powers Known" characteristicTypeId="69d7-b45e-00a2-7e46" value="Smite and two powers from the Dark Hereticus discipline"/>
+            <characteristic name="Powers Known" characteristicTypeId="69d7-b45e-00a2-7e46" value="Smite and two powers from the Contagion discipline"/>
             <characteristic name="Other" characteristicTypeId="c2e2-f115-0003-5d7b" value=""/>
           </characteristics>
         </profile>
@@ -2159,6 +2232,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="1.0"/>
             <cost name="pts" costTypeId="points" value="24.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2230,10 +2304,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="c131-0b42-ac1b-eb83" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5a4d-c371-c5c8-7cc3" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="90.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="172a-9105-e028-28a8" name="Poxwalkers" hidden="false" collective="false" type="unit">
@@ -2394,6 +2485,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2402,14 +2494,33 @@
           <costs>
             <cost name="pts" costTypeId="points" value="6.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="eb2b-0e7f-a3bd-7995" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="32dc-256c-af86-9a08" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="391f-4490-3ba2-a551" name="Foetid Bloat-drone" hidden="false" collective="false" type="model">
@@ -2610,6 +2721,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="25.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2647,6 +2759,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="34.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="205b-8820-fcfe-660b" name="Heavy blight launcher" hidden="false" collective="false" type="upgrade">
@@ -2679,6 +2792,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="35.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2c41-a1e6-d64b-2461" name="Fleshmower" hidden="false" collective="false" type="upgrade">
@@ -2711,6 +2825,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="12.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2718,10 +2833,28 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="bd6f-3100-0027-640a" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a639-444e-1b66-c4fb" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="99.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2551-97d8-11cb-d026" name="Icon of Despair" page="0" hidden="false" collective="false" type="upgrade">
@@ -2732,7 +2865,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Enemy units that are within 6&quot; of any units with an Icon of Despair must subtract 1 from their Ld."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Enemy units that are within 6&quot; of any units with an Icon of Despair must subtract 1 from their Leadership."/>
           </characteristics>
         </profile>
       </profiles>
@@ -2749,6 +2882,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="967b-647e-7fec-3469" name="Chaos Lord in Terminator Armour" page="0" hidden="false" collective="false" type="model">
@@ -2902,10 +3036,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="6822-8145-fcb7-b0ab" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a562-6e8c-8d8e-723f" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="95.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e9b8-3691-eed5-b0c7" name="Chaos Lord on Palanquin of Nurgle" page="0" hidden="false" collective="false" type="model">
@@ -3051,6 +3202,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3101,10 +3253,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="cf70-37ec-935d-dc4e" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a4b8-efc9-ecad-1ce2" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="99.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7d3-6be5-3af7-070e" name="Chaos Lord with Jump Pack" page="0" hidden="false" collective="false" type="model">
@@ -3276,10 +3445,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="46ce-0ce6-5112-d487" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8dc0-8bcb-d87a-95d2" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="93.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4445-6367-dac4-307a" name="Daemon Prince [INDEX]" page="0" hidden="false" collective="false" type="model">
@@ -3434,6 +3620,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="1.0"/>
             <cost name="pts" costTypeId="points" value="24.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3553,10 +3740,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1d89-d901-00ed-998c" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="95ef-4ce0-19b2-290a" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="146.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="313d-d939-4be9-9e48" name="Sorcerer in Terminator Armour" page="" hidden="false" collective="false" type="model">
@@ -3586,7 +3790,7 @@
           <characteristics>
             <characteristic name="Cast" characteristicTypeId="5afb-9914-904b-d3b3" value="2"/>
             <characteristic name="Deny" characteristicTypeId="b5ac-9c20-5d5a-6f9b" value="1"/>
-            <characteristic name="Powers Known" characteristicTypeId="69d7-b45e-00a2-7e46" value="Smite and two powers from the Dark Hereticus discipline"/>
+            <characteristic name="Powers Known" characteristicTypeId="69d7-b45e-00a2-7e46" value="Smite and two powers from the Contagion discipline"/>
             <characteristic name="Other" characteristicTypeId="c2e2-f115-0003-5d7b" value=""/>
           </characteristics>
         </profile>
@@ -3744,10 +3948,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1391-eb1a-9796-21be" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3521-e6a0-d309-27a4" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="102.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35e1-54d6-7565-dd03" name="Sorcerer with Jump Pack" page="" hidden="false" collective="false" type="model">
@@ -3932,10 +4153,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="e383-1651-c76d-3313" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="19b2-5d94-14ee-0f3d" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="114.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="262d-dbbf-8474-791c" name="Chainaxe" hidden="false" collective="false" type="upgrade">
@@ -3958,6 +4196,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="1.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d05-2c25-26b8-d4da" name="Hellforged sword" hidden="false" collective="false" type="upgrade">
@@ -3988,6 +4227,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="73f0-ec59-a8ea-4ce9" name="Daemonic axe" hidden="false" collective="false" type="upgrade">
@@ -4018,6 +4258,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ab5a-b591-31e2-e0d0" name="Malefic talon" hidden="false" collective="false" type="upgrade">
@@ -4048,6 +4289,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7aa9-b4b1-f87b-6ef6" name="Warp bolter" hidden="false" collective="false" type="upgrade">
@@ -4078,6 +4320,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="9.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f668-0ff7-69d5-be65" name="Havoc launcher" hidden="false" collective="false" type="upgrade">
@@ -4102,6 +4345,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="6.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a8f6-49e7-ea35-aca5" name="Smoke launchers" hidden="false" collective="false" type="upgrade">
@@ -4126,6 +4370,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="429c-a1b7-b65a-0358" name="Possessed" hidden="false" collective="false" type="unit">
@@ -4291,6 +4536,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4299,6 +4545,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="20.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4312,10 +4559,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="23c2-535c-6b77-032d" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4e3d-c2e7-fd3c-b042" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cae-15dc-4a5d-0b9b" name="Helbrute" page="" hidden="false" collective="false" type="model">
@@ -4515,6 +4779,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="30.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ce8d-9406-bcf1-fdae" name="Power scourge" hidden="false" collective="false" type="upgrade">
@@ -4545,6 +4810,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="35.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4623,6 +4889,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="16.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4640,13 +4907,7 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="points" value="15">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -4701,10 +4962,28 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="06d0-ec2e-5e1c-602f" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5106-8c49-5e6a-433c" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="60.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a008-7caa-0650-327c" name="Chaos Rhino" page="" hidden="false" collective="false" type="model">
@@ -4903,10 +5182,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a650-5d1c-de6c-4d95" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6297-2b3d-f0e9-8ed4" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="70.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="25f1-c2ff-203f-8173" name="Typhus" page="" hidden="false" collective="false" type="model">
@@ -5112,6 +5408,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3894-2cb7-a910-d056" name="Master-crafted manreaper" hidden="false" collective="false" type="upgrade">
@@ -5145,6 +5442,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5196,6 +5494,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="175.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8fbe-2b19-a2d3-8f50" name="Lord of Contagion" page="" hidden="false" collective="false" type="model">
@@ -5361,6 +5660,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="20.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6685-7482-8fa4-2845" name="Manreaper" hidden="false" collective="false" type="upgrade">
@@ -5393,6 +5693,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="17.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5427,10 +5728,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="ff54-4f48-bd05-6f4a" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9632-8224-cc0d-ac6d" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="95.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="299f-6b03-4963-d522" name="Malignant Plaguecaster" hidden="false" collective="false" type="model">
@@ -5588,6 +5906,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5674,10 +5993,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="7415-0a28-a4a8-9a50" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4e39-ebed-05cb-a2b2" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="110.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="605b-3c14-2a67-f8e4" name="Chaos Cultists" page="" hidden="false" collective="false" type="unit">
@@ -5837,6 +6173,7 @@
                   <costs>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -5865,6 +6202,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="5.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5935,6 +6273,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="5.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1d7d-fd1a-264d-0691" name="Chaos Cultist w/ autopistol and brutal assault weapon" hidden="false" collective="false" type="model">
@@ -5986,6 +6325,7 @@
                   <costs>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6005,6 +6345,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="5.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1dd1-500a-fb2a-2942" name="Chaos Cultist w/ Autogun" hidden="false" collective="false" type="model">
@@ -6056,6 +6397,7 @@
                   <costs>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="pts" costTypeId="points" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6064,6 +6406,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="5.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6071,10 +6414,28 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="2888-f1e5-4e13-f59e" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5d38-cff7-d37b-5c1d" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="64e4-21f2-e032-ad64" name="Noxious Blightbringer" hidden="false" collective="false" type="model">
@@ -6213,6 +6574,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6277,10 +6639,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="bf74-f5ce-04f6-98f0" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="142e-049f-80c6-772d" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="50.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c90-74d4-6e66-cb10" name="Chaos Land Raider" page="0" hidden="false" collective="false" type="model">
@@ -6438,33 +6817,7 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9ce6-e5bc-09c6-6546" name="Twin lascannon" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="b57d-5ac7-0efb-af25" name="New InfoLink" hidden="false" targetId="f355-e723-8b2a-1b41" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca39-6731-4fd3-572c" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="448f-36e2-2425-5bf3" type="min"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="50.0"/>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="9ba2-76c8-c9b7-5242" name="New EntryLink" hidden="false" targetId="09d8-7790-ed3f-4d6d" type="selectionEntry">
@@ -6507,10 +6860,38 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="e145-ad48-ebc1-50f9" name="Twin lascannon" hidden="false" targetId="ee18-b1cd-6b60-464d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8737-2080-3ace-8a8f" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27bd-b042-b69b-9c7a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6428-85bc-e9d1-80a0" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b521-ad23-3278-307d" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="200.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="19.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a69-f097-e443-531d" name="Sorcerer on Palanquin of Nurgle" book="Index: Chaos  -- FAQ 1.0" page="24" hidden="false" collective="false" type="model">
@@ -6660,6 +7041,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="6.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6772,10 +7154,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="f55f-0b6b-1162-13a8" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0e9a-d69a-a2d5-b1e2" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="123.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7841-ab80-2a2a-9ee6" name="3. Plague Wind" hidden="false" collective="false" type="upgrade">
@@ -6805,6 +7204,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="99bd-b1b2-e84c-a226" name="2. Gift of Contagion" hidden="false" collective="false" type="upgrade">
@@ -6864,6 +7264,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="922e-5c7d-e439-842b" name="Blight Grenades" hidden="false" collective="false" type="upgrade">
@@ -6889,6 +7290,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e298-8e5d-be7f-e27d" name="Blight Grenades" hidden="false" collective="true" type="upgrade">
@@ -6914,6 +7316,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b339-aeff-d933-715c" name="Infernal Gaze" hidden="false" collective="false" type="upgrade">
@@ -6938,6 +7341,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7879-4959-e68e-9cac" name="Warptime" hidden="false" collective="false" type="upgrade">
@@ -6962,6 +7366,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0007-8465-9875-a29f" name="Prescience" hidden="false" collective="false" type="upgrade">
@@ -6986,6 +7391,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b26c-9e69-51a0-2fbf" name="Brutal assault weapon" hidden="false" collective="true" type="upgrade">
@@ -7010,6 +7416,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e51-2a41-8394-7f6b" name="Mortarion" hidden="false" collective="false" type="model">
@@ -7079,7 +7486,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Remaining W" characteristicTypeId="f154-9e75-eeb9-0bba" value="9-18+"/>
+            <characteristic name="Remaining W" characteristicTypeId="f154-9e75-eeb9-0bba" value="1-4"/>
             <characteristic name="M" characteristicTypeId="bfe9-f5a6-b968-1c4b" value="8&quot;"/>
             <characteristic name="A" characteristicTypeId="20e4-d011-ebc8-ea7f" value="4"/>
             <characteristic name="Host of Plagues" characteristicTypeId="f9ff-d7e7-804c-5747" value="6+"/>
@@ -7288,6 +7695,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9119-ee25-d5af-ab8c" name="The Lantern" hidden="false" collective="false" type="upgrade">
@@ -7321,6 +7729,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8a67-df1e-c7b9-3aa3" name="Attendant&apos;s claws and teeth" hidden="false" collective="false" type="upgrade">
@@ -7354,6 +7763,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7402,6 +7812,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="24.0"/>
         <cost name="pts" costTypeId="points" value="470.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07ed-5393-a5f5-7a4a" name="4. Blades of Putrefaction" hidden="false" collective="false" type="upgrade">
@@ -7431,6 +7842,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="90d9-18fc-f9a9-df82" name="5. Putrescent Vitality" hidden="false" collective="false" type="upgrade">
@@ -7460,6 +7872,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="00f1-d9e0-cd71-79f0" name="Deathshroud Terminators" hidden="false" collective="false" type="unit">
@@ -7631,6 +8044,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ee44-3d0f-e5e9-6f69" name="Manreaper" hidden="false" collective="false" type="upgrade">
@@ -7664,6 +8078,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="17.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7672,6 +8087,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="35.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="05ab-df01-8c1d-7ab0" name="Deathshroud Terminator" hidden="false" collective="false" type="model">
@@ -7734,6 +8150,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="17.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3d6a-1dbe-0e74-02e4" name="Plaguespurt gauntlets" hidden="false" collective="true" type="upgrade">
@@ -7759,6 +8176,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7767,14 +8185,33 @@
           <costs>
             <cost name="pts" costTypeId="points" value="35.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="2020-dad6-0717-75d3" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2379-1a83-967e-1404" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="11.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4124-8ae3-177a-4767" name="Plague Marines" page="0" hidden="false" collective="false" type="unit">
@@ -8002,8 +8439,9 @@
                           <selectionEntryGroups/>
                           <entryLinks/>
                           <costs>
-                            <cost name="pts" costTypeId="points" value="25.0"/>
+                            <cost name="pts" costTypeId="points" value="20.0"/>
                             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                           </costs>
                         </selectionEntry>
                       </selectionEntries>
@@ -8039,6 +8477,7 @@
                               <costs>
                                 <cost name="pts" costTypeId="points" value="1.0"/>
                                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                               </costs>
                             </selectionEntry>
                           </selectionEntries>
@@ -8084,6 +8523,7 @@
                       <costs>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5f4b-100e-c4f0-b657" name="Codex" hidden="false" collective="false" type="upgrade">
@@ -8138,6 +8578,7 @@
                                   <costs>
                                     <cost name="pts" costTypeId="points" value="1.0"/>
                                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                                   </costs>
                                 </selectionEntry>
                               </selectionEntries>
@@ -8235,6 +8676,7 @@
                       <costs>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8272,6 +8714,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="16.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8318,6 +8761,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="0.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="324c-dcbb-397c-c193" name="Boltgun" hidden="false" collective="true" type="upgrade">
@@ -8343,6 +8787,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="0.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f9d0-f272-f2fc-afda" name="Krak Grenades" hidden="false" collective="true" type="upgrade">
@@ -8368,6 +8813,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="0.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -8388,6 +8834,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="16.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c24e-9d31-6349-2f1f" name="Plague Marine w/ Special Weapon" hidden="false" collective="false" type="model">
@@ -8505,6 +8952,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="16.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3575-35fd-5faf-a4db" name="Plague Marine w/ melee weapons" hidden="false" collective="false" type="model">
@@ -8557,6 +9005,7 @@
                       <costs>
                         <cost name="pts" costTypeId="points" value="5.0"/>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="51e7-2808-d025-f526" name="2nd Plague knife" hidden="false" collective="false" type="upgrade">
@@ -8574,6 +9023,7 @@
                       <costs>
                         <cost name="pts" costTypeId="points" value="0.0"/>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5bdb-3a19-530f-910d" name="Mace of Contagion and bubotic axe" hidden="false" collective="false" type="upgrade">
@@ -8621,6 +9071,7 @@
                       <costs>
                         <cost name="pts" costTypeId="points" value="12.0"/>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d80e-9e85-5652-20c6" name="Great plague cleaver" hidden="false" collective="false" type="upgrade">
@@ -8669,6 +9120,7 @@
                       <costs>
                         <cost name="pts" costTypeId="points" value="15.0"/>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5f1f-bfbd-b009-f6b9" name="Flail of Corruption" hidden="false" collective="false" type="upgrade">
@@ -8708,6 +9160,7 @@
                       <costs>
                         <cost name="pts" costTypeId="points" value="10.0"/>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8753,6 +9206,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="16.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8785,10 +9239,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="c38e-f9c4-1dbd-715b" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="53fa-735c-8883-0a23" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f68-8da3-6de9-a091" name="Instrument of Chaos" hidden="false" collective="false" type="upgrade">
@@ -8814,6 +9285,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c07-d16f-292e-0268" name="Death Hex" hidden="false" collective="false" type="upgrade">
@@ -8843,6 +9315,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7aad-b00e-c64d-57a2" name="Diabolic Strength" hidden="false" collective="false" type="upgrade">
@@ -8872,6 +9345,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="de00-0bea-31a0-4a92" name="Gift of Chaos" hidden="false" collective="false" type="upgrade">
@@ -8901,6 +9375,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7b9-f572-bb23-bc8d" name="1. Miasma of Pestilence" hidden="false" collective="false" type="upgrade">
@@ -8930,6 +9405,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e9b4-1d6e-8021-095f" name="Blightlord Terminators" hidden="false" collective="false" type="unit">
@@ -9131,6 +9607,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="34.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9232,6 +9709,7 @@
                       <costs>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="pts" costTypeId="points" value="10.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -9281,13 +9759,7 @@
                           <profiles/>
                           <rules/>
                           <infoLinks/>
-                          <modifiers>
-                            <modifier type="set" field="points" value="15">
-                              <repeats/>
-                              <conditions/>
-                              <conditionGroups/>
-                            </modifier>
-                          </modifiers>
+                          <modifiers/>
                           <constraints>
                             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2911-cb9a-8a36-9937" type="max"/>
                           </constraints>
@@ -9374,6 +9846,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="34.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9381,10 +9854,28 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="88c8-2fe8-b2d3-e9ee" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4ec5-4e3e-8cd1-93a6" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="14.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c87b-80f6-93b3-ddf6" name="Myphitic Blight-haulers" hidden="false" collective="false" type="unit">
@@ -9585,6 +10076,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="74a2-b7ee-117d-1aae" name="Bile spurt" hidden="false" collective="false" type="upgrade">
@@ -9618,6 +10110,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9645,18 +10138,37 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="28be-ca63-15f8-ec7f" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
             <cost name="pts" costTypeId="points" value="75.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="32a5-a53c-5ca1-8df7" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f2f-be3d-146f-2253" name="6. Curse of the Leper" hidden="false" collective="false" type="upgrade">
@@ -9686,6 +10198,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e909-3b20-4914-4907" name="Plagueburst Crawler" hidden="false" collective="false" type="upgrade">
@@ -9743,6 +10256,15 @@
             <characteristic name="S" characteristicTypeId="4df7-23b6-3503-5294" value="5"/>
           </characteristics>
         </profile>
+        <profile id="7fc5-cb80-d1f8-ee3b" name="Explodes" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield. On a 5+ it explodes, and each unit within 6&quot; suffers D3 mortal wounds."/>
+          </characteristics>
+        </profile>
       </profiles>
       <rules/>
       <infoLinks>
@@ -9753,12 +10275,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="e802-8b6f-313a-f077" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="f24d-3aeb-d2c4-86cd" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9864,6 +10380,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9909,6 +10426,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="30.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1b3f-567e-f1d9-53df" name="2x Plaguespitter" hidden="false" collective="false" type="upgrade">
@@ -9933,6 +10451,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="34.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9980,6 +10499,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="6.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="020e-3dc9-24b6-b163" name="Rothail volley gun" hidden="false" collective="false" type="upgrade">
@@ -10010,6 +10530,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="12.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -10017,10 +10538,28 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="7980-03b1-7752-b7e9" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="00e6-a7ee-02a2-bc9c" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="100.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a0c-47ec-020b-1cde" name="Plaguespitter" hidden="false" collective="false" type="upgrade">
@@ -10043,6 +10582,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="17.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="56e6-7785-729b-7138" name="Phosphex bombs" hidden="false" collective="false" type="upgrade">
@@ -10076,6 +10616,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d740-2c84-b2b6-0c1b" name="Balesword" hidden="false" collective="false" type="upgrade">
@@ -10106,6 +10647,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="6.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="36f3-205a-9a21-726d" name="Plague spewer" hidden="false" collective="false" type="upgrade">
@@ -10136,6 +10678,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2eec-d159-0db6-6df9" name="Plague belcher" hidden="false" collective="false" type="upgrade">
@@ -10166,6 +10709,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="7.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="66c9-8e12-9b38-aadc" name="Blight launcher" hidden="false" collective="false" type="upgrade">
@@ -10196,6 +10740,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0bf4-3bb0-c99c-b188" name="Biologus Putrifier" hidden="false" collective="false" type="model">
@@ -10343,6 +10888,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10407,10 +10953,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a838-e2a8-d077-8189" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d3fe-6d48-da76-00b4" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="03e6-b580-5112-328f" name="Hyper Blight Grenades" hidden="false" collective="false" type="upgrade">
@@ -10436,6 +10999,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d633-7874-7780-7ab8" name="Plague Surgeon" hidden="false" collective="false" type="model">
@@ -10624,10 +11188,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="664a-c2fd-9b65-52c0" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6184-46d0-2059-0a8f" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="pts" costTypeId="points" value="54.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f36-bc00-152e-a734" name="Tallyman" hidden="false" collective="false" type="model">
@@ -10805,10 +11386,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1d21-d27d-2488-8ff9" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="71d8-96c1-2beb-8455" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="50.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b785-15f0-966e-73c4" name="Lightning Claw" hidden="false" collective="false" type="upgrade">
@@ -10839,6 +11437,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="8.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="21ec-740e-ec22-cf7c" name="Foul Blightspawn" hidden="false" collective="false" type="model">
@@ -10986,6 +11585,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11039,10 +11639,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="70d5-dcc6-fea1-9f1f" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2454-f7af-c48d-90b0" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="pts" costTypeId="points" value="77.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3c50-86ac-7b5b-6d71" name="Death&apos;s heads" hidden="false" collective="true" type="upgrade">
@@ -11076,6 +11693,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d795-9d93-4144-5336" name="Rot Fly" hidden="false" collective="true" type="upgrade">
@@ -11117,6 +11735,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11125,6 +11744,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="75e1-0c0e-227c-91a9" name="Plaguebringer" hidden="false" collective="false" type="upgrade">
@@ -11179,6 +11799,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b8e-9da8-a600-83a6" name="Plague knife" hidden="false" collective="false" type="upgrade">
@@ -11201,6 +11822,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c3a5-b40c-b588-9387" name="The Plague Brethren" hidden="false" collective="false" type="upgrade">
@@ -11369,8 +11991,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="17.0"/>
+            <cost name="pts" costTypeId="points" value="16.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="316e-cb4d-8414-7968" name="Plague Marine" hidden="false" collective="false" type="upgrade">
@@ -11432,8 +12055,9 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="17.0"/>
+            <cost name="pts" costTypeId="points" value="16.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="69a4-bb67-a110-8637" name="Plague Marine" hidden="false" collective="false" type="model">
@@ -11495,16 +12119,35 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="17.0"/>
+            <cost name="pts" costTypeId="points" value="16.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="d17a-cfc4-1a83-81ed" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="85c2-8603-e46b-efc1" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a7f3-c34e-be7d-d3c2" name="Helbrute fist" hidden="false" collective="false" type="upgrade">
@@ -11566,6 +12209,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd30-03a4-3c18-4c5c" name="Felthius&apos; Cohort" hidden="false" collective="false" type="unit">
@@ -11713,6 +12357,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="38.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ab5a-7f77-25dd-9cd8" name="Blightlord Terminator" hidden="false" collective="false" type="model">
@@ -11757,6 +12402,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="5.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -11777,6 +12423,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="38.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a133-53b6-3014-6ce0" name="Blightlord Terminator" hidden="false" collective="false" type="model">
@@ -11818,14 +12465,33 @@
           <costs>
             <cost name="pts" costTypeId="points" value="38.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="b2d9-cb15-c670-6ba3" name="Has Battle Honours" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ef91-5fb9-5b7a-6cf0" name="Battle Honours" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8e02-debd-f5af-3d20" name="Necrosius the Undying" page="" hidden="false" collective="false" type="model">
@@ -12014,6 +12680,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4926-060e-273a-5d87" name="Tainted force blade" hidden="false" collective="false" type="upgrade">
@@ -12047,6 +12714,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -12114,6 +12782,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="135.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a840-f0b3-abac-6d1c" name="Warlord" hidden="false" collective="false" type="upgrade">
@@ -12139,6 +12808,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7906-7754-69cd-1c2c" name="Gifts of Decay (1 Relic)" hidden="false" collective="false" type="upgrade">
@@ -12164,6 +12834,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="-1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe51-f3fa-7a36-7dcd" name="Gifts of Decay (2 Relics)" hidden="false" collective="false" type="upgrade">
@@ -12189,6 +12860,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="-3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef5e-8c5d-1f82-96a3" name="Mamon Transfigured" page="" hidden="false" collective="false" type="model">
@@ -12342,6 +13014,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="de88-d78b-0b7a-bf0a" name="Pustulent stomp" hidden="false" collective="false" type="upgrade">
@@ -12375,6 +13048,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b2a4-5c40-06cd-354d" name="Fist of decay" hidden="false" collective="false" type="upgrade">
@@ -12408,6 +13082,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -12431,8 +13106,9 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="220.0"/>
+        <cost name="pts" costTypeId="points" value="200.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -12556,13 +13232,7 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="12">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -12686,13 +13356,7 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="12">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -12762,13 +13426,7 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="points" value="12">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -13090,6 +13748,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3640-940d-60fe-1aa4" name="The Pandemic Staff" hidden="true" collective="false" type="upgrade">
@@ -13125,6 +13784,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="39d7-c92a-4777-515c" name="Dolorous Knell" hidden="true" collective="false" type="upgrade">
@@ -13160,6 +13820,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c4c4-af6d-1a20-bf89" name="The Plague Skull of Glothila" hidden="false" collective="false" type="upgrade">
@@ -13192,6 +13853,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f1f3-b502-ede4-a665" name="Fugaris&apos; Helm" hidden="false" collective="false" type="upgrade">
@@ -13219,6 +13881,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13283,6 +13946,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="5.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -13514,13 +14178,7 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="points" value="12">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -13635,13 +14293,7 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="points" value="12">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -13932,13 +14584,7 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="points" value="12">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -14108,6 +14754,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1a55-f73b-7163-8bc4" name="2. Living Plague" hidden="false" collective="false" type="upgrade">
@@ -14132,6 +14779,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c017-fc04-775f-62b0" name="3. Tainted Regeneration" hidden="false" collective="false" type="upgrade">
@@ -14156,6 +14804,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4526-6aa5-7a8c-06c7" name="4. Hulking Physique" hidden="false" collective="false" type="upgrade">
@@ -14180,6 +14829,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fed3-9701-a766-9c70" name="5. Rotten Constitution" hidden="false" collective="false" type="upgrade">
@@ -14204,6 +14854,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="bc1d-0acc-5b59-48f7" name="6. Arch-Contaminator" hidden="false" collective="false" type="upgrade">
@@ -14228,6 +14879,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

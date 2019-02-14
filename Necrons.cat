@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="61c6-c8c5-a304-ff5f" name="Necrons" book="Codex: Necrons" revision="38" battleScribeVersion="2.01" authorName="BSData Team" authorContact="https://gitter.im/BSData/wh40k" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="61c6-c8c5-a304-ff5f" name="Necrons" book="Codex: Necrons" revision="45" battleScribeVersion="2.01" authorName="@DrTobogganMD" authorContact="https://gitter.im/BSData/wh40k" authorUrl="https://github.com/BSData/wh40k/issues" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1474,10 +1474,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="f7a0-2cb0-cb1b-7daa" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e565-9ba4-9c4a-398f" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="25.0"/>
         <cost name="pts" costTypeId="points" value="566.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ea9b-4e8a-12f5-273c" name="Imotekh the Stormlord" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -1676,11 +1693,12 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="10.0"/>
         <cost name="pts" costTypeId="points" value="160.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7f44-2a1f-a127-3e29" name="Tesla Sphere" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="075b-91a5-6752-4b9c" name="Telsa Sphere" book="Codex: Necrons" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+        <profile id="075b-91a5-6752-4b9c" name="Tesla Sphere" book="Codex: Necrons" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1706,6 +1724,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="db75-f4e0-3df1-7701" name="Warscythe" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -1728,6 +1747,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="9.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9862-c770-a8f6-af1a" name="Hyperphase Sword" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -1750,6 +1770,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="3.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="73f8-2829-a5cd-ece4" name="Gauss Flayer Array" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -1780,6 +1801,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d35-ef91-9949-0e39" name="Death Ray" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -1810,6 +1832,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8884-f112-ee4a-7e01" name="Doomsday Cannon" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -1854,6 +1877,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="25b2-ab10-80c4-63bc" name="Eldritch Lance" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -1898,6 +1922,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2487-2ae4-14ba-b535" name="Gauntlet of Fire" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -1928,6 +1953,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8ac-cd96-8f08-c74b" name="Gauss Blaster" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -1950,6 +1976,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="7.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="086d-232b-8a91-8eec" name="Gauss Flayer" book="Codex: Necrons" hidden="false" collective="true" type="upgrade">
@@ -1980,6 +2007,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1329-c753-0e88-7cfd" name="Gauss Flux Arc" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2010,6 +2038,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0989-cd62-df0e-b30b" name="Gaze of Death" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2040,6 +2069,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ddb4-4f46-c139-d63d" name="Heat Ray" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2084,6 +2114,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="40.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="28cf-dd64-1b2a-c52d" name="Heavy Gauss Cannon" book="Codex: Necrons" hidden="false" collective="true" type="upgrade">
@@ -2114,6 +2145,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="20.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="26ad-bf23-16f5-7f91" name="Particle Beamer" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2144,6 +2176,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ca8-2b54-4f76-fa76" name="Particle Caster" book="Codex: Necrons" hidden="false" collective="true" type="upgrade">
@@ -2166,6 +2199,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="4.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c250-871c-5454-11e8" name="Particle Shredder" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2196,6 +2230,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="30.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d7c-9a4d-5524-921a" name="Particle Whip" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2226,6 +2261,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1835-4643-2a63-9af3" name="Rod of Covenant" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2270,6 +2306,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c7ae-4085-11c3-5610" name="Staff of Light" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2314,6 +2351,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4ce4-78db-10c4-f5d8" name="Staff of the Destroyer" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2358,6 +2396,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a308-8b68-886d-3014" name="Synaptic Disintegrator" book="Codex: Necrons" hidden="false" collective="true" type="upgrade">
@@ -2388,6 +2427,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2c3-0f24-0630-42c3" name="Tachyon Arrow" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2418,6 +2458,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ccbb-dfbb-6c04-0d6d" name="Tesla Cannon" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2448,6 +2489,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="13.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="271c-1bd0-bb90-cc69" name="Tesla Destructor" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2478,6 +2520,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa3e-6628-f176-979f" name="Tesla Carbine" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2500,6 +2543,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="7.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd20-bd99-ad4c-59b3" name="Transdimensional Beamer" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2522,6 +2566,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="14.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7cb9-acaa-d420-99d6" name="Twin Heavy Gauss Cannon" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2552,6 +2597,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="40.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e44-a3a8-d58a-1f4b" name="Twin Tesla Destructor" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2582,6 +2628,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="05bc-85c2-d9d2-450d" name="Canoptek Scarab Swarm" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -2627,6 +2674,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="13.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="544d-10ba-7176-4360" name="Canoptek Scarabs" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -2748,6 +2796,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ff80-1682-a708-e772" name="Tomb Blade" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -2823,6 +2872,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5ad4-c0cd-4315-3f71" name="Two Tesla Carbines" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -2852,6 +2902,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2919,6 +2970,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="14.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="86e5-0d3d-cacc-2c2c" name="Tomb Blades" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -3010,10 +3062,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="604e-a33e-33af-caf3" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2d70-9a4e-98d8-c998" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="43e1-54b5-5f4c-159b" name="Destroyer" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -3059,6 +3128,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f397-8cce-163b-9ff3" name="Heavy Destroyer" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -3104,6 +3174,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ced3-4ec4-60ec-b671" name="Destroyers" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -3208,10 +3279,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="ebd7-07a1-4570-0044" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ad6b-0f0a-f635-753f" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c81-a7d9-3e6a-1382" name="Heavy Destroyers" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -3290,10 +3378,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="0270-3a12-44ca-9829" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e482-8a4b-9956-8700" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="020f-7722-666a-dcef" name="Canoptek Spyders" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -3370,10 +3475,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="b4eb-f829-e13a-0f19" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bc3c-3c25-4750-4a6b" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="872f-ae34-e29e-6268" name="Canoptek Spyder" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -3429,6 +3551,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3469,6 +3592,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="65.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b125-d551-7b55-dd21" name="Phylactery" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -3494,6 +3618,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8642-6edd-7d6d-93f8" name="Automaton Claws" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -3524,6 +3649,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e663-ee52-b679-3266" name="Crackling Tendrils" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -3554,6 +3680,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4144-72c6-5642-6be0" name="Empathic Obliterator" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -3584,6 +3711,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4a3a-f0e2-b38e-591d" name="Feeder Mandibles" book="Codex: Necrons" hidden="false" collective="true" type="upgrade">
@@ -3614,6 +3742,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2bfe-b24d-b4bb-4233" name="Flayer Claws" book="Codex: Necrons" hidden="false" collective="true" type="upgrade">
@@ -3644,6 +3773,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1265-238c-7894-4aca" name="Massive Forelimbs" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -3674,6 +3804,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfc3-ba17-d128-f3f0" name="Scythe of the Nightbringer" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -3704,6 +3835,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="869e-70f1-263e-4d62" name="Staff of Tomorrow" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -3734,6 +3866,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2189-6f09-b1c9-0254" name="Star-God Fists" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -3764,6 +3897,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6a4-0539-7267-45d1" name="Vicious Claws" book="Codex: Necrons" hidden="false" collective="true" type="upgrade">
@@ -3794,6 +3928,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b4c-6a70-78f9-7236" name="Whip Coils" book="Codex: Necrons" hidden="false" collective="true" type="upgrade">
@@ -3824,6 +3959,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="9.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc7e-cf76-2672-4cb3" name="Obelisk" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -3980,10 +4116,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="11f0-f07c-f515-d522" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="acaa-dcef-0213-6017" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="22.0"/>
         <cost name="pts" costTypeId="points" value="380.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3281-7138-816a-c352" name="Transcendent C&apos;tan" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -4200,10 +4353,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a763-2636-0a02-eebb" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8a75-da4c-454e-27a8" name="Is A Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="12.0"/>
         <cost name="pts" costTypeId="points" value="200.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="77c2-dc9f-6ea0-87e4" name="Monolith" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -4398,10 +4568,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="2a41-b823-c1d3-af7a" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f976-6d5a-a3bd-f0bf" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="19.0"/>
         <cost name="pts" costTypeId="points" value="320.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cb8-4a5a-700e-9ed5" name="Annihilation Barge" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -4540,10 +4727,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="fdd0-3016-3f76-5bef" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c804-4bb8-08a4-529b" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="pts" costTypeId="points" value="100.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9cc2-e8ba-eea4-a6db" name="Ghost Ark" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -4707,10 +4911,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="3372-3638-174d-ae5b" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5a14-f533-202e-3293" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="pts" costTypeId="points" value="145.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e0e-abf2-af4a-3a0b" name="Doom Scythe" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -4866,10 +5087,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="26e1-db8f-aa02-858c" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="af9e-7290-aa1c-3099" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="11.0"/>
         <cost name="pts" costTypeId="points" value="150.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2400-5523-7510-a2b6" name="Night Scythe" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -5023,10 +5261,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="07ad-3204-2c7b-90ae" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="07dd-71f3-f9b4-04ee" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="pts" costTypeId="points" value="135.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a42-ac73-2ef2-7a17" name="Canoptek Wraith (Whip Coils)" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -5072,6 +5327,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="48.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2ca1-0513-62e6-1e27" name="Canoptek Wraiths" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -5193,10 +5449,28 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="b154-a629-d3e4-dd12" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f013-e8f4-710a-c433" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e8a6-5459-10b6-0504" name="Triarch Praetorian" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -5230,6 +5504,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="16.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d056-a895-41b3-fe0f" name="Triarch Stalker" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -5408,10 +5683,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="7f84-6c59-9569-7064" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9791-e09e-a9c1-4f23" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="pts" costTypeId="points" value="85.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d78-a116-94c1-2631" name="C&apos;tan Shard of the Nightbringer" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -5554,6 +5846,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="12.0"/>
         <cost name="pts" costTypeId="points" value="180.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="561d-83f5-ee13-fdfc" name="C&apos;tan Shard of the Deceiver" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -5703,6 +5996,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="12.0"/>
         <cost name="pts" costTypeId="points" value="225.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="631d-38b4-1b15-59f9" name="Necron Warrior" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -5748,6 +6042,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="11.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0dd-9cd5-7551-be92" name="Necron Warriors" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -5821,10 +6116,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="279e-7b09-f965-7bd9" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d9dc-0d16-58d5-ce4a" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b8e-775e-8a0f-4455" name="Immortals" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -5956,10 +6268,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="4ff4-237a-4d0b-8859" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cd5d-23fa-a372-0074" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6299-dc56-da5d-5b0f" name="Lychguard" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -6059,14 +6388,14 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="points" value="11">
+                <modifier type="increment" field="points" value="9">
                   <repeats>
                     <repeat field="selections" scope="6299-dc56-da5d-5b0f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
-                <modifier type="decrement" field="points" value="11">
+                <modifier type="decrement" field="points" value="9">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -6090,10 +6419,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="e3d2-e9a0-9e35-4fff" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7522-15ca-e3fd-5889" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="044b-987c-b28c-244f" name="Deathmarks" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -6180,10 +6526,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1b1c-9ac6-61b6-e7fb" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="016d-02a1-4eaf-5809" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a453-c679-932c-9ca2" name="Deathmark" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -6229,6 +6592,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="17.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="96eb-eb3c-9a92-930f" name="Flayed Ones" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -6329,10 +6693,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="de53-8bdb-8c22-fa33" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4df5-2d8d-95de-02ac" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8d81-d6ab-e943-b42e" name="Flayed One" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -6378,6 +6759,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="17.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7fab-f8ff-90cc-2858" name="Anrakyr the Traveller" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -6526,6 +6908,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
         <cost name="pts" costTypeId="points" value="167.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="00c8-26f8-e8b4-b58c" name="Trazyn the Infinite" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -6669,6 +7052,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="pts" costTypeId="points" value="90.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5333-92ea-fc60-0253" name="Catacomb Command Barge" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -6853,10 +7237,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="198e-31b7-1676-3fdc" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cd90-46aa-83d4-83bb" name="Is A Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
         <cost name="pts" costTypeId="points" value="124.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="de91-4514-2040-fe63" name="Orikan the Diviner" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -7020,6 +7421,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="pts" costTypeId="points" value="115.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b74-5621-5b41-730f" name="Illuminor Szeras" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -7136,6 +7538,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="pts" costTypeId="points" value="120.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af10-4dec-3975-3ba0" name="Cryptek" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -7288,10 +7691,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="7bbe-ffea-f425-0f49" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="535d-61d1-2ab3-81ae" name="Is A Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="pts" costTypeId="points" value="70.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2bb9-8708-45fb-e5f1" name="Destroyer Lord" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -7452,10 +7872,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="7c2f-0d29-9cc1-52b2" name="Is A Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="36d1-a490-57f2-14f5" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
         <cost name="pts" costTypeId="points" value="110.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f14-943d-c02e-c562" name="Vargard Obyron" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -7617,6 +8054,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
         <cost name="pts" costTypeId="points" value="125.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6de-4de0-e695-be74" name="Nemesor Zahndrekh" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -7775,6 +8213,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
         <cost name="pts" costTypeId="points" value="150.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4d88-448b-d4cd-feb0" name="Lord" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -7891,10 +8330,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="87f4-be43-90a0-b71e" name="Is A Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3cba-a567-b0b8-1c86" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="pts" costTypeId="points" value="65.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0633-49e2-08b0-583e" name="Overlord" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -8017,10 +8473,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1c17-fae2-cb2b-6744" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7de6-71a0-e004-9c0b" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="pts" costTypeId="points" value="84.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5805-778a-2219-fd63" name="Resurrection Orb" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -8046,6 +8519,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="35.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="edfc-6702-14c1-c861" name="Fabricator Claw Array" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -8071,6 +8545,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e683-6baa-e13b-9375" name="Gloom Prism" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -8096,6 +8571,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be57-2aac-9278-31b8" name="Nebuloscope" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -8121,6 +8597,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="2.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a70e-4a5e-9ecc-de40" name="Shadowloom" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -8146,6 +8623,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e08-27f7-3ae9-4cf0" name="Shieldvanes" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -8171,6 +8649,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="3.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="89a4-d59a-d509-14a6" name="Hyperphase Sword and Dispersion Shield" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -8203,6 +8682,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ea01-f5bb-2733-2b8d" name="Lychguard" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -8236,6 +8716,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="19.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1083-8dbb-68af-ebbd" name="Immortal" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -8269,6 +8750,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="8.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bc0-df6f-0e3f-7410" name="Triarch Praetorians" book="Codex: Necrons" hidden="false" collective="false" type="unit">
@@ -8394,10 +8876,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="e2ec-7d5e-e76a-63b3" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ade4-2f52-0975-1a87" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a38-f36c-a43e-82ac" name="Voidblade and Particle Caster" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -8426,6 +8925,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d642-3923-dc26-9bdb" name="Power of the C&apos;tan: Antimatter Meteor" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -8454,6 +8954,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5491-9b3d-aa47-4825" name="Power of the C&apos;tan: Seismic Assault" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -8482,6 +8983,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="496d-33f1-f9e5-bade" name="Power of the C&apos;tan: Time&apos;s Arrow" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -8510,6 +9012,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8e23-1b9d-1c2e-3e22" name="Doomsday Ark" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -8659,10 +9162,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="4c23-1ab6-aef0-8692" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5c75-c5c6-1605-3bcd" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="10.0"/>
         <cost name="pts" costTypeId="points" value="160.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0036-fd1e-3569-514b" name="Gauss Cannon" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -8685,6 +9205,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="20.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="51fa-a9d1-2457-4ab4" name="Gauss Cannon" book="Codex: Necrons" hidden="false" collective="true" type="upgrade">
@@ -8707,6 +9228,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="20.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a06-48ea-87a1-7a42" name="Canoptek Tomb Stalker" book="IA: Xenos" hidden="false" collective="false" type="model">
@@ -8818,10 +9340,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a975-a8f8-c98e-f5a9" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d488-4a2d-2a36-04d2" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="pts" costTypeId="points" value="130.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d3ca-ba96-c311-27f2" name="Gauss Pylon" book="IA: Xenos" hidden="false" collective="false" type="model">
@@ -9000,10 +9539,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="8373-733a-def2-de0e" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5128-776f-0881-78db" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="24.0"/>
         <cost name="pts" costTypeId="points" value="475.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4a66-b1ac-dd95-09e8" name="Tesseract Ark" book="IA: Xenos" hidden="false" collective="false" type="model">
@@ -9185,6 +9741,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f268-2902-0bdc-dac1" name="Two Gauss Cannons" book="IA: Xenos" hidden="false" collective="false" type="upgrade">
@@ -9214,6 +9771,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="91d5-edc4-18e0-c08a" name="Two Particle Beamers" book="IA: Xenos" hidden="false" collective="false" type="upgrade">
@@ -9243,6 +9801,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9262,10 +9821,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="00f0-b496-a230-39a4" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9521-e884-82e8-2cc7" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="13.0"/>
         <cost name="pts" costTypeId="points" value="160.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e90a-0682-0e25-a166" name="Night Shroud" book="IA: Xenos" hidden="false" collective="false" type="model">
@@ -9419,10 +9995,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="ad28-b456-9b97-7603" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ad00-0e5e-6bc9-5be8" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="13.0"/>
         <cost name="pts" costTypeId="points" value="185.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1abe-ecae-897e-5f4d" name="Kutlakh the World Killer" book="IA: Xenos" hidden="false" collective="false" type="model">
@@ -9598,6 +10191,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="10.0"/>
         <cost name="pts" costTypeId="points" value="200.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f40d-d7dc-c067-37bf" name="Toholk the Blinded" book="IA: Xenos" hidden="false" collective="false" type="model">
@@ -9770,6 +10364,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="pts" costTypeId="points" value="125.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="20bc-e403-d208-75e2" name="Sentry Pylon" book="IA: Xenos" hidden="false" collective="false" type="unit">
@@ -9871,6 +10466,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="81a5-c41a-bd50-7ac1" name="Tomb Citadel" book="IA: Xenos" hidden="false" collective="false" type="unit">
@@ -9978,6 +10574,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="40.0"/>
         <cost name="pts" costTypeId="points" value="730.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f821-cc14-9ff6-8a92" name="Canoptek Tomb Sentinel" book="IA: Xenos" hidden="false" collective="false" type="model">
@@ -10089,10 +10686,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="ae3d-d2fe-8090-89b6" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5cad-a770-4bed-bd61" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
         <cost name="pts" costTypeId="points" value="145.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6315-999a-c664-5f14" name="Canoptek Acanthrites" book="IA: Xenos" hidden="false" collective="false" type="unit">
@@ -10174,10 +10788,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="1eee-6f39-fa61-fa0d" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="27b2-c6a8-d4d3-f3b8" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d0ef-26b4-4262-5832" name="Canoptek Acanthrite" book="IA: Xenos" hidden="false" collective="false" type="model">
@@ -10243,6 +10874,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="54.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd95-6fc3-197e-1a87" name="Cutting Beam" book="IA: Xenos" hidden="false" collective="true" type="upgrade">
@@ -10273,6 +10905,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2370-b426-89aa-2d77" name="Focussed Death Ray" book="IA: Xenos" hidden="false" collective="false" type="upgrade">
@@ -10303,6 +10936,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="35.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8354-5cda-a639-c2af" name="Exile Cannon" book="IA: Xenos" hidden="false" collective="false" type="upgrade">
@@ -10333,6 +10967,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7ba6-7311-f951-4ab7" name="Gauss Annihilator" book="IA: Xenos" page="" hidden="false" collective="false" type="upgrade">
@@ -10377,6 +11012,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6165-097c-4e61-75da" name="Gauss Exterminator" book="IA: Xenos" page="" hidden="false" collective="false" type="upgrade">
@@ -10407,6 +11043,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="50.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d953-fe3b-cc79-a820" name="Heat Cannon" book="IA: Xenos" hidden="false" collective="false" type="upgrade">
@@ -10437,6 +11074,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="75.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c59-ef3f-02b8-3ad8" name="Tesla Arc" book="IA: Xenos" hidden="false" collective="false" type="upgrade">
@@ -10467,6 +11105,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="084c-e654-290e-aca1" name="Tesseract Singularity Chamber" book="IA: Xenos" hidden="false" collective="false" type="upgrade">
@@ -10525,6 +11164,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f0ec-bf9a-a6b0-7c65" name="Twin Gauss Slicers" book="IA: Xenos" hidden="false" collective="false" type="upgrade">
@@ -10555,6 +11195,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="282a-36bc-148d-ffa2" name="Aeonstave" book="IA: Xenos" hidden="false" collective="false" type="upgrade">
@@ -10585,6 +11226,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2616-c51f-4466-4443" name="The Obsidax" book="IA: Xenos" hidden="false" collective="false" type="upgrade">
@@ -10615,6 +11257,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="afc2-60e1-474a-9e67" name="Teleportation Matrix" book="IA: Xenos" hidden="false" collective="false" type="upgrade">
@@ -10637,6 +11280,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="783c-2fae-70c5-f5b8" name="Sentry Pylon" book="IA: Xenos" hidden="false" collective="false" type="model">
@@ -10734,10 +11378,28 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="4047-4220-088d-7d07" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7e22-34fe-b56a-6a41" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="70.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9c6-1724-137b-d1c4" name="Power Crucible" book="IA: Xenos" hidden="false" collective="false" type="model">
@@ -10805,6 +11467,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa13-5e69-0f75-f606" name="Tomb Ziggurat" book="IA: Xenos" hidden="false" collective="false" type="model">
@@ -10863,6 +11526,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="472e-6013-b829-16cc" name="Gun Emplacement Mount" book="IA: Xenos" hidden="false" collective="false" type="model">
@@ -10939,6 +11603,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0229-f485-76ec-1914" name="Canoptek Wraith (Particle Caster)" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -10984,6 +11649,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="48.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e956-c4a3-2185-f7d5" name="Canoptek Wraith (Transdimensional Beamer)" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -11029,6 +11695,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="48.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="101b-922f-4376-cc41" name="Transdimensional Beamer" book="Codex: Necrons" hidden="false" collective="true" type="upgrade">
@@ -11051,6 +11718,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="14.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5f90-b757-fe6e-40a6" name="Canoptek Wraith" book="Codex: Necrons" hidden="false" collective="false" type="model">
@@ -11085,6 +11753,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="48.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8056-ce75-9ad4-f269" name="Warlord" hidden="false" collective="false" type="upgrade">
@@ -11144,6 +11813,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="08b2-558b-7002-0aa7" name="Warlord Trait (BRB 2): Inspiring Leader" book="Warhammer 40,000: The Rules" hidden="false" collective="false" type="upgrade">
@@ -11168,6 +11838,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="133d-5086-3326-5bc9" name="Warlord Trait (BRB 3): Tenacious Survivor" book="Warhammer 40,000: The Rules" hidden="false" collective="false" type="upgrade">
@@ -11192,6 +11863,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ceb5-7879-c371-a824" name="Warlord Trait (BRB 1): Legendary Fighter" book="Warhammer 40,000: The Rules" hidden="false" collective="false" type="upgrade">
@@ -11216,6 +11888,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="82a1-3110-2977-7e1d" name="Warlord Trait (Nihilakh): Precognitive Strike" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11263,6 +11936,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c2b-5398-c5ff-05f1" name="Artefact: The Veil of Darkness" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11290,6 +11964,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dac7-360f-5fb2-5092" name="Dynasty: Nihilakh" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11317,6 +11992,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="414b-8673-944b-f0c9" name="Dynasty Choice" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11344,6 +12020,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="93ce-b4b2-9433-b1e6" name="Dynasty: Nephrekh" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11371,6 +12048,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f6ea-beff-a150-f095" name="Dynasty: Sautekh" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11398,6 +12076,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e860-5285-0bbf-beda" name="Dynasty: Mephrit" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11425,6 +12104,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c06-82d0-11f1-04da" name="Dynasty: Novokh" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11452,6 +12132,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6820-3176-ab64-9f51" name="Power of the C&apos;tan: Cosmic Fire" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11480,6 +12161,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="21ce-ff05-898a-007c" name="Power of the C&apos;tan: Sky of Falling Stars" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11508,6 +12190,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b6bb-5456-1a99-85c5" name="Power of the C&apos;tan: Transdimensional Thunderbolt" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11536,6 +12219,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7eda-575b-b0da-408e" name="Dynastic Heirlooms" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11570,9 +12254,10 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c6d-f9a8-637f-f5a5" name="Dynastic Heirlooms: 1 Extra Artefact (-1CP)" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1c6d-f9a8-637f-f5a5" name="Dynastic Heirlooms: 1 Extra Artefact" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11585,9 +12270,10 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="-1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c79-61ba-20a1-fd26" name="Dynastic Heirlooms: 2 Extra Artefacts (-3CP)" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7c79-61ba-20a1-fd26" name="Dynastic Heirlooms: 2 Extra Artefacts" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11600,6 +12286,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="-3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c1d-fa98-12bd-bc42" name="Artefact: The Gauntlet of the Conflagrator" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11632,6 +12319,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dde2-10e6-b807-0508" name="Artefact (Sautekh): The Abyssal Staff" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11699,6 +12387,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="727a-2d30-334e-1e1f" name="Artefact (Nephrekh): The Solar Staff" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11766,6 +12455,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e01a-bbd3-4b45-76db" name="Artefact: Lightning Field" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11793,6 +12483,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e6e-ffcb-dea9-93f1" name="Artefact: The Orb of Eternity" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11828,6 +12519,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dad9-e3f1-5255-baba" name="Artefact (Mephrit): The Voltaic Staff" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11895,6 +12587,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e154-2f99-d368-7080" name="Artefact: The Nanoscarab Casket" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11930,6 +12623,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b0ab-550a-f8ce-840c" name="Artefact: Sempiternal Weave" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -11965,6 +12659,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ebb4-96c3-a333-94af" name="Artefact (Novokh): The Blood Scythe" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12023,6 +12718,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce1b-2cb2-11a2-7052" name="Artefact: Voidreaper" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12069,6 +12765,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e8d4-46e4-e069-904b" name="Artefact (Nihilakh): Timesplinter Cloak" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12110,6 +12807,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af59-4751-0efa-72f7" name="Artefact: The Nightmare Shroud" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12137,6 +12835,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a79f-8273-065f-8f9e" name="Voidscythe" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12167,6 +12866,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="20.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c5f8-6313-c05c-dfef" name="[Reference] Powers of the C&apos;tan (All)" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12257,6 +12957,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b916-2a56-8cab-ffe1" name="Warlord Trait (Sautekh): Hyperlogical Strategist" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12312,6 +13013,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e08-2330-b7bd-54e7" name="Warlord Trait (Codex 2): Eternal Madness" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12336,6 +13038,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a399-9ca8-727f-def6" name="Warlord Trait (Mephrit): Merciless Tyrant" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12375,6 +13078,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b740-37fe-4bfc-1baf" name="Warlord Trait (Nephrekh): Skin of Living Gold" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12414,6 +13118,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f52-8365-63ed-7a0e" name="Warlord Trait (Codex 1): Enduring Will" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12438,6 +13143,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5039-a030-ddfd-9f6e" name="Warlord Trait (Novokh): Crimson Haze" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12477,6 +13183,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b1d5-c871-a5b6-b03a" name="Warlord Trait (Codex 6): Honourable Combatant" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12501,6 +13208,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1661-5f15-1cf5-8774" name="Warlord Trait (Codex 5): Implacable Conqueror" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12534,6 +13242,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46a4-868b-d2b6-809a" name="Warlord Trait (Codex 4): Thrall of the Silent King" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12558,6 +13267,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c9d5-b167-79e1-dd37" name="Warlord Trait (Codex 3): Immortal Pride" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12591,6 +13301,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a58-7b60-39f0-eeb8" name="[Reference] Warlord Traits (All)" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12741,6 +13452,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b16c-00fe-661a-ffff" name="Canoptek Cloak" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12774,6 +13486,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4601-c2bc-c429-be14" name="Chronometron" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12799,6 +13512,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf31-bcd3-9adb-72cd" name="Fractured Personality: Cosmic Tyrant" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12827,6 +13541,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1595-beae-ff64-379a" name="Fractured Personality: Immune to Natural Law" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12855,6 +13570,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d763-5383-0cb6-1889" name="Fractured Personality: Writhing Worldscape" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12883,6 +13599,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d8c-7239-0d84-b5f0" name="Fractured Personality: Transdimensional Displacement" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12911,6 +13628,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4203-7a6f-25b3-1c28" name="Fractured Personality: Sentient Necrodermis" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12939,6 +13657,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc72-fac7-aea4-8bdd" name="Fractured Personality: Entropic Touch" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -12967,6 +13686,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5841-64f7-b88d-7840" name="[Reference] Fractured Personalities (All)" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -13057,6 +13777,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c534-8f43-889a-76fd" name="Voidblade" book="Codex: Necrons" hidden="false" collective="true" type="upgrade">
@@ -13079,6 +13800,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="6.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a11-33d0-f9e3-707e" name="Voidblade" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -13101,6 +13823,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="6.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e552-6548-b984-1da6" name="Dynasty: Maynarkh" book="IA: Xenos" hidden="false" collective="false" type="upgrade">
@@ -13125,6 +13848,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="182d-96e3-0fa9-550f" name="Dynastic Code: Aggressively Territorial" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -13150,6 +13874,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a53-abda-e882-5813" name="Dynastic Code: Awakened By Murder" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -13175,6 +13900,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a7f-f250-16e1-3120" name="Dynastic Code: Relentless Advance" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -13200,6 +13926,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="173d-5a24-1bb9-bfe7" name="Dynastic Code: Translocation Beams" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -13225,6 +13952,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f8e-2f2a-0dbf-685b" name="Dynastic Code: Solar Fury" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -13250,6 +13978,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="56dd-f1e1-5dcb-f538" name="Dynasty: &lt;Custom&gt;" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -13274,6 +14003,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="addf-105f-fd1b-c1fa" name="Seraptek Heavy Construct" book="Forgeworld Datasheet" hidden="false" collective="false" type="model">
@@ -13467,6 +14197,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="591b-a58c-5c84-f7d9" name="Two Synaptic Obliterators and Two Transdimensional Projectors" hidden="false" collective="false" type="upgrade">
@@ -13505,6 +14236,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -13524,10 +14256,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="468c-0130-571f-6f33" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6257-2b4f-6462-643c" name="Has Battle Honors" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="625.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="32.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e59c-c482-3458-17c7" name="Titanic Forelimbs" book="Forgeworld Datasheet" hidden="false" collective="false" type="upgrade">
@@ -13572,6 +14321,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e0e-4d49-9e41-a9d5" name="Transdimensional Projector" book="Forgeworld Datasheet" hidden="false" collective="false" type="upgrade">
@@ -13602,6 +14352,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="47e7-3570-5b52-f086" name="Singularity Generator" book="Forgeworld Datasheet" hidden="false" collective="false" type="upgrade">
@@ -13632,6 +14383,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5329-2a67-6104-8dee" name="Synaptic Obliterator" book="Forgeworld Datasheet" hidden="false" collective="false" type="upgrade">
@@ -13662,6 +14414,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c500-7fde-180e-74ce" name="Random Fractured Personality" hidden="false" collective="false" type="upgrade">
@@ -13686,6 +14439,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8266-5d5d-6245-cf9e" name="Dynasty: &lt;Mixed&gt;" book="Codex: Necrons" hidden="false" collective="false" type="upgrade">
@@ -13701,6 +14455,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

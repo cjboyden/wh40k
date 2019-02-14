@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="62ed-66a0-988c-e34e" name="Imperium - FW Elysians" revision="44" battleScribeVersion="2.01" authorName="Alphalas, CrusherJoe" authorContact="Gitter: @Alphalas, @CrusherJoe twitter: @kingoverlord, @theawesomesauce" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="62ed-66a0-988c-e34e" name="Imperium - FW Elysians" revision="61" battleScribeVersion="2.01" authorName="Alphalas, CrusherJoe" authorContact="Gitter: @Alphalas, @CrusherJoe twitter: @kingoverlord, @theawesomesauce" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -606,13 +606,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="b002-bc40-bf98-bccb" name="New CategoryLink" hidden="false" targetId="adc3-d7b2-b51f-ecaa" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="3ac0-fecf-98b3-b3ab" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false">
           <profiles/>
           <rules/>
@@ -990,6 +983,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="ef53-a7ac-522d-852c" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="49d7-b823-affd-204b" name="Officer" hidden="false" targetId="adc3-d7b2-b51f-ecaa" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1562,236 +1562,7 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5ee4-ab61-ad6b-e804" name="Heirlooms of Conquest" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5f6-1854-5c53-72a2" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="0d03-5c4d-813f-9555" name="The Emperor&apos;s Benediction" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="4254-0f98-8fc3-ef85" name="The Emperor&apos;s Benediction" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="COMMISSAR or LORD COMMISSAR with a bolt pistol only. The Emperor’s Benediction replaces the model’s bolt pistol and has the following profile:"/>
-                  </characteristics>
-                </profile>
-                <profile id="9272-873a-7d8c-1604" name="The Emperor&apos;s Benediction" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 3"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
-                    <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can target a Character even if it is not the closest enemy unit, unless the bearer is within 1&quot; of an enemy unit."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d90-89eb-8844-6deb" type="notInstanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c73b-2a0e-4b65-c19e" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="dc52-f545-8d53-33c8" name="The Laurels of Command" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="11c6-3cce-3e9f-0b9b" name="The Laurels of Command" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="OFFICER with Voice of Command ability only. Roll a dice each time the bearer issues an order to a friendly &lt;REGIMENT&gt;unit within 6&quot; of them. On a 4+ the bearer can immediately issue another order to the same unit. This does not count towards the maximum number of orders this model may issue each turn."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adc3-d7b2-b51f-ecaa" type="notInstanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="43ee-27ec-96d5-c7e6" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7676-8804-93d3-b368" name="The Blade of Conquest" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="098f-5055-7e56-70e3" name="The Blade of Conquest" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Model with power sword only. The Blade of Conquest replaces the model’s power sword and has the following profile:"/>
-                  </characteristics>
-                </profile>
-                <profile id="98b5-cc4c-4121-ab97" name="The Blade of Conquest" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
-                    <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2b3b-6079-225e-1855" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1dcd-13a7-6238-59ce" name="Kurov&apos;s Aquila" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="09bc-c28e-bc4f-0a4c" name="Kurov&apos;s Aquila" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="OFFICERS only. Each time your opponent uses a Stratagem, roll a D6. On a 5+ you gain 1 Command Point."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adc3-d7b2-b51f-ecaa" type="notInstanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4941-ed62-8aa8-1414" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7f84-bb45-c38e-3254" name="The Dagger of Tu&apos;Sakh" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="85db-98b5-a78f-64ea" name="The Dagger of Tu&apos;Sakh" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY OFFICER model only. During deployment, you can set up the bearer and one INFANTRY unit from your army behind enemy lines instead of placing them on the battlefield. The infantry unit must have the same &lt;REGIMENT&gt; keyword as the bearer if the bearer has one.At the end of any of your Movement phases these units can launch their daring attack – set them up within 3&quot; of each other, anywhere on the battlefield that is wholly within 6&quot; of any battlefield edge and more than 9&quot; away from any enemy models."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2658-bb9e-4c97-ec24" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4bcb-9dff-56a9-0486" name="The Deathmask of Ollanius" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="89c1-ef7f-e0b5-b860" name="The Deathmask of Ollanius" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY model only. The bearer of this item has a 4+ invulnerable save. In addition, once per game, at the start of any of your turns, the bearer may immediately heal D3 wounds."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a9af-a2db-900a-3ba4" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="20ae-c936-059e-f0d6" name="Laspistol" hidden="false" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
           <profiles/>
@@ -1804,17 +1575,31 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="6249-6db8-961e-cf23" name="Warlord" hidden="false" targetId="9dfe-e2ab-ed06-888e" type="selectionEntry">
+        <entryLink id="1d31-d60f-09cd-564e" name="Heirlooms of Conquest" hidden="false" targetId="6a6e-e0ec-babc-6703" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60c9-332b-d147-8118" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d0f6-489b-b49c-2c48" name="Warlord Traits" hidden="false" targetId="21a1-cfa7-a290-45f7" type="selectionEntryGroup">
+        <entryLink id="0cb9-5353-2581-e412" name="Is A Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="46a2-3123-8f9c-5ba3" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f515-42fc-22a4-d5ef" name="Warlord Traits" hidden="false" targetId="21a1-cfa7-a290-45f7" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1822,7 +1607,7 @@
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33f6-60da-7b70-5fee" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9dfe-e2ab-ed06-888e" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1830,10 +1615,19 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="d3e7-39ec-b870-11bc" name="Warlord" hidden="false" targetId="9dfe-e2ab-ed06-888e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="25.0"/>
+        <cost name="pts" costTypeId="points" value="20.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="2.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a0bf-b970-7acc-d625" name="Valkyries" hidden="false" collective="false" type="unit">
@@ -2015,6 +1809,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2052,6 +1847,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="5.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2085,10 +1881,27 @@
               <constraints/>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="70ca-9a34-1c08-14c0" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="02ee-1f56-30f0-60f7" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" costTypeId="points" value="110.0"/>
+            <cost name="pts" costTypeId="points" value="100.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2097,6 +1910,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c63a-a9f1-b5e8-a1ac" name="Tauros Assault Vehicle" hidden="false" collective="false" type="unit">
@@ -2217,6 +2031,7 @@
                   <costs>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="pts" costTypeId="points" value="20.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2252,10 +2067,27 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="6720-310d-2891-00d9" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="56f2-5719-143b-1d65" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
             <cost name="pts" costTypeId="points" value="37.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2264,6 +2096,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0614-3e10-b09a-d894" name="Tauros Venator" hidden="false" collective="false" type="unit">
@@ -2379,6 +2212,7 @@
                   <costs>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="pts" costTypeId="points" value="18.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2414,10 +2248,27 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="9542-6a95-49bf-600e" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d1cf-f6c0-b5e7-a4ed" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
             <cost name="pts" costTypeId="points" value="46.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2426,6 +2277,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8e37-c68c-81d0-27f4" name="Vulture Gunship" hidden="false" collective="false" type="unit">
@@ -2574,6 +2426,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="40.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2637,6 +2490,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="18.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="22df-8406-9a05-8fc2" name="2 Multiple Rocket Pods" hidden="false" collective="false" type="upgrade">
@@ -2659,8 +2513,9 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="22.0"/>
+                    <cost name="pts" costTypeId="points" value="16.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2748,6 +2603,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="60.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f820-ad3e-89a4-a2df" name="Tactical Bombs" hidden="false" collective="false" type="upgrade">
@@ -2772,6 +2628,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="20.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="03ec-c32a-d85a-1bd9" name="2 Hellfury Missiles" hidden="false" collective="false" type="upgrade">
@@ -2796,6 +2653,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="30.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9065-7bb4-e7b5-f744" name="6 Skystrike Missiles" hidden="false" collective="false" type="upgrade">
@@ -2820,6 +2678,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="90.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b6ae-7328-8f38-b02a" name="6 Hunter-Killer Missiles" hidden="false" collective="false" type="upgrade">
@@ -2844,6 +2703,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="36.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="8433-86b5-427d-9612" name="2 Multiple Rocket Pods" hidden="false" collective="false" type="upgrade">
@@ -2866,8 +2726,9 @@
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="pts" costTypeId="points" value="22.0"/>
+                    <cost name="pts" costTypeId="points" value="16.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2893,10 +2754,27 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="da68-f8ab-7e5f-b1fe" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="590a-8955-e4e8-32d1" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="112.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="11.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2905,6 +2783,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5db2-87a5-a0c8-5a4e" name="Vendetta Gunship" hidden="false" collective="false" type="unit">
@@ -3053,6 +2932,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3090,6 +2970,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="80.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1490-9c0b-ff5c-79f5" name="2 Hellfury missiles" hidden="false" collective="false" type="upgrade">
@@ -3114,6 +2995,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="30.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3139,10 +3021,27 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="a1f3-6829-c065-97c2" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c4e0-56fc-232e-b7de" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="11.0"/>
             <cost name="pts" costTypeId="points" value="110.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3151,6 +3050,7 @@
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6406-153b-6543-9b1c" name="Tarantula Battery" hidden="false" collective="false" type="unit">
@@ -3271,10 +3171,28 @@
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="0d5f-9d71-ea8a-5ad7" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="1c56-7ce6-7068-32a8" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="2.0"/>
             <cost name="pts" costTypeId="points" value="20.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3283,6 +3201,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7e5-053a-4d41-b384" name="Cyclops Demolition Vehicle" hidden="false" collective="false" type="unit">
@@ -3378,14 +3297,33 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="3d5d-fd92-e52b-2a11" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c563-7679-e60d-17a8" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
             <cost name="pts" costTypeId="points" value="60.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3394,6 +3332,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac4b-51f7-5048-1e63" name="Thunderbolt Heavy Fighter" hidden="false" collective="false" type="model">
@@ -3522,6 +3461,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="20.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ff93-193d-941f-9ca1" name="4 Hellstrike Missiles" hidden="false" collective="false" type="upgrade">
@@ -3546,6 +3486,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="120.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fb18-1506-3160-5b4e" name="6 Skystrike Missiles" hidden="false" collective="false" type="upgrade">
@@ -3570,6 +3511,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="90.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3612,10 +3554,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="65f9-4274-142a-d2c8" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d339-85c9-fc23-2376" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="15.0"/>
         <cost name="pts" costTypeId="points" value="125.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="290e-b2bb-3514-b3e2" name="Lightning Strike Fighter" hidden="false" collective="false" type="model">
@@ -3733,6 +3692,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="20.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3769,6 +3729,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="20.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="db0e-1e49-5756-50e3" name="4 Hellstrike Missiles" hidden="false" collective="false" type="upgrade">
@@ -3793,6 +3754,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="120.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2f89-325f-5536-a7d0" name="4 Hellfury Missiles" hidden="false" collective="false" type="upgrade">
@@ -3817,6 +3779,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="60.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8e7f-1f0a-d628-7105" name="6 Skystrike Missiles" hidden="false" collective="false" type="upgrade">
@@ -3841,6 +3804,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="90.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3866,10 +3830,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a7a1-f590-ab6c-a043" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3c71-bcf4-3c53-56bc" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="14.0"/>
         <cost name="pts" costTypeId="points" value="130.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da02-b1b3-5184-10f5" name="Avenger Strike Fighter" hidden="false" collective="false" type="model">
@@ -3987,6 +3968,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c643-2dad-a2d2-81aa" name="Defensive Heavy Stubber" hidden="false" collective="false" type="upgrade">
@@ -4028,6 +4010,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4064,6 +4047,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="20.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1e6a-f8a4-c8b2-6969" name="2 Hellstrike Missiles" hidden="false" collective="false" type="upgrade">
@@ -4088,6 +4072,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="60.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d73d-7f0e-6831-76ff" name="2 Hellfury Missiles" hidden="false" collective="false" type="upgrade">
@@ -4112,6 +4097,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="30.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c9cf-81f0-d9d0-0943" name="Two Missile Launchers" hidden="false" collective="false" type="upgrade">
@@ -4142,6 +4128,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="30.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0671-f5c8-0950-6473" name="2 Autocannon" hidden="false" collective="false" type="upgrade">
@@ -4166,6 +4153,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="20.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f024-158d-0b02-338d" name="2 Multi-Lasers" hidden="false" collective="false" type="upgrade">
@@ -4190,6 +4178,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="10.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4215,10 +4204,27 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="324a-5cbe-c789-ac6e" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7b49-3aae-a5c9-e317" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="14.0"/>
         <cost name="pts" costTypeId="points" value="150.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9087-1b5b-86a2-3a89" name="Elysian Company Commander" hidden="false" collective="false" type="model">
@@ -4315,234 +4321,6 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8990-0857-c801-6c3e" name="Heirlooms of Conquest" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b4f-d14b-b78f-09a3" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="c01f-52f6-620f-a3e1" name="The Emperor&apos;s Benediction" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="46fa-b95e-ae36-9b6b" name="The Emperor&apos;s Benediction" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="COMMISSAR or LORD COMMISSAR with a bolt pistol only. The Emperor’s Benediction replaces the model’s bolt pistol and has the following profile:"/>
-                  </characteristics>
-                </profile>
-                <profile id="d584-f9da-509d-292a" name="The Emperor&apos;s Benediction" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 3"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
-                    <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can target a Character even if it is not the closest enemy unit, unless the bearer is within 1&quot; of an enemy unit."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d90-89eb-8844-6deb" type="notInstanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c1b7-e6de-c551-fc22" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c470-39ad-6c2c-8edd" name="The Laurels of Command" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="9718-f968-6030-ec4b" name="The Laurels of Command" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="OFFICER with Voice of Command ability only. Roll a dice each time the bearer issues an order to a friendly &lt;REGIMENT&gt;unit within 6&quot; of them. On a 4+ the bearer can immediately issue another order to the same unit. This does not count towards the maximum number of orders this model may issue each turn."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adc3-d7b2-b51f-ecaa" type="notInstanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aa08-2dcb-88f2-b078" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="ee94-f8a6-f8b9-cb38" name="The Blade of Conquest" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="8113-1bad-bcfa-5c6c" name="The Blade of Conquest" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Model with power sword only. The Blade of Conquest replaces the model’s power sword and has the following profile:"/>
-                  </characteristics>
-                </profile>
-                <profile id="38e7-f535-a0fd-40ef" name="The Blade of Conquest" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
-                    <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="00c9-fdea-fed0-0ed1" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e4e7-6fa4-0844-2d53" name="Kurov&apos;s Aquila" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="203f-a2e2-1462-ebd4" name="Kurov&apos;s Aquila" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="OFFICERS only. Each time your opponent uses a Stratagem, roll a D6. On a 5+ you gain 1 Command Point."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adc3-d7b2-b51f-ecaa" type="notInstanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1491-c8bf-8bde-6027" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="08ed-6365-5500-f397" name="The Dagger of Tu&apos;Sakh" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="283d-729a-db3c-cba5" name="The Dagger of Tu&apos;Sakh" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY OFFICER model only. During deployment, you can set up the bearer and one INFANTRY unit from your army behind enemy lines instead of placing them on the battlefield. The infantry unit must have the same &lt;REGIMENT&gt; keyword as the bearer if the bearer has one.At the end of any of your Movement phases these units can launch their daring attack – set them up within 3&quot; of each other, anywhere on the battlefield that is wholly within 6&quot; of any battlefield edge and more than 9&quot; away from any enemy models."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="73c4-edef-74a8-3b61" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="fb39-560d-5e28-99a8" name="The Deathmask of Ollanius" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="85cc-e33d-6a04-d237" name="The Deathmask of Ollanius" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY model only. The bearer of this item has a 4+ invulnerable save. In addition, once per game, at the start of any of your turns, the bearer may immediately heal D3 wounds."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1a49-e48e-db17-c9b4" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="907f-3516-f8d6-49ab" name="Elysian Melee Weapons" hidden="false" targetId="8951-19ee-4d4f-29a9" type="selectionEntryGroup">
@@ -4608,10 +4386,35 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="5a9d-e2c3-3153-42ae" name="Heirlooms of Conquest" hidden="false" targetId="6a6e-e0ec-babc-6703" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0239-bd94-0119-604a" name="Is A Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dbd3-dcc2-c104-d4fc" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="pts" costTypeId="points" value="40.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c80b-5795-b5b3-2bdd" name="Elysian Lord Commissar" hidden="false" collective="false" type="model">
@@ -4741,234 +4544,6 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4250-095c-83c4-d94d" name="Heirlooms of Conquest" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ba-9aa1-d2e7-c456" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="91ff-aa78-ed46-42e5" name="The Emperor&apos;s Benediction" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="2e0f-4b51-a695-9e9b" name="The Emperor&apos;s Benediction" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="COMMISSAR or LORD COMMISSAR with a bolt pistol only. The Emperor’s Benediction replaces the model’s bolt pistol and has the following profile:"/>
-                  </characteristics>
-                </profile>
-                <profile id="af8d-4d05-35aa-9c88" name="The Emperor&apos;s Benediction" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 3"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
-                    <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can target a Character even if it is not the closest enemy unit, unless the bearer is within 1&quot; of an enemy unit."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d90-89eb-8844-6deb" type="notInstanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="af7b-695c-e2ad-9eb2" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="83c4-5311-e7c3-43b5" name="The Laurels of Command" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="7da1-a70c-fb89-f0e2" name="The Laurels of Command" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="OFFICER with Voice of Command ability only. Roll a dice each time the bearer issues an order to a friendly &lt;REGIMENT&gt;unit within 6&quot; of them. On a 4+ the bearer can immediately issue another order to the same unit. This does not count towards the maximum number of orders this model may issue each turn."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adc3-d7b2-b51f-ecaa" type="notInstanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1c08-36ce-e491-6668" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="de5b-b1ee-5c9a-626a" name="The Blade of Conquest" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="efb5-0aaf-fd25-3b20" name="The Blade of Conquest" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Model with power sword only. The Blade of Conquest replaces the model’s power sword and has the following profile:"/>
-                  </characteristics>
-                </profile>
-                <profile id="8f77-83d0-ec59-6603" name="The Blade of Conquest" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-                    <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
-                    <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
-                    <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-                    <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="19f3-9b9d-3c26-ee3d" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e8b0-bec7-0d94-9c0a" name="Kurov&apos;s Aquila" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="06d0-1422-6a53-dce7" name="Kurov&apos;s Aquila" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="OFFICERS only. Each time your opponent uses a Stratagem, roll a D6. On a 5+ you gain 1 Command Point."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adc3-d7b2-b51f-ecaa" type="notInstanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5853-ce26-b635-9690" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="53be-4796-9cb6-d7c9" name="The Dagger of Tu&apos;Sakh" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="a254-128f-6abb-97d7" name="The Dagger of Tu&apos;Sakh" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY OFFICER model only. During deployment, you can set up the bearer and one INFANTRY unit from your army behind enemy lines instead of placing them on the battlefield. The infantry unit must have the same &lt;REGIMENT&gt; keyword as the bearer if the bearer has one.At the end of any of your Movement phases these units can launch their daring attack – set them up within 3&quot; of each other, anywhere on the battlefield that is wholly within 6&quot; of any battlefield edge and more than 9&quot; away from any enemy models."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ccd8-dc9f-0672-525e" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c6c0-33ab-ccfe-97fa" name="The Deathmask of Ollanius" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="817a-669b-db4b-9598" name="The Deathmask of Ollanius" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY model only. The bearer of this item has a 4+ invulnerable save. In addition, once per game, at the start of any of your turns, the bearer may immediately heal D3 wounds."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="59d2-ce1b-f402-f4c8" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b5e9-6e2f-ae66-9fb5" name="Krak grenade" hidden="false" targetId="0f23-cd69-d106-371e" type="selectionEntry">
@@ -5043,10 +4618,35 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="5d88-4ffc-2e16-ae93" name="Heirlooms of Conquest" hidden="false" targetId="6a6e-e0ec-babc-6703" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ce38-cc31-c987-a1af" name="Is A Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="80ed-381e-2c39-dbac" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="pts" costTypeId="points" value="60.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f228-8f36-c5d0-74af" name="Elysian Drop Trooper Squad" hidden="false" collective="false" type="unit">
@@ -5171,6 +4771,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="5.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5231,6 +4832,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="5.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="efd1-3858-71ee-11e6" name="Guardsman w/Special Weapon" page="0" hidden="false" collective="false" type="upgrade">
@@ -5285,6 +4887,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="5.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d281-47b7-d765-a51e" name="Guardsman w/ Vox Caster" page="0" hidden="false" collective="false" type="upgrade">
@@ -5337,6 +4940,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="10.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9f27-8375-b712-2e9e" name="Guardsman w/Breacher Charge" page="0" hidden="false" collective="false" type="upgrade">
@@ -5404,6 +5008,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="5.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c910-38c4-e1f3-7334" name="Guardsman w/Lasgun, Frag &amp; Krak Grenades" hidden="false" collective="false" type="upgrade">
@@ -5460,6 +5065,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="5.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5467,10 +5073,28 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="3ef2-67e8-55e7-cfe4" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="70cf-60e9-3949-d062" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3b6e-250f-ad7e-0c00" name="Elysian Special Weapons Squad" hidden="false" collective="false" type="unit">
@@ -5534,6 +5158,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="5.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="815b-cae2-350a-2cdd" name="Guardsmen w/ Special Weapon" hidden="false" collective="false" type="model">
@@ -5614,14 +5239,33 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="5.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="5f37-e341-cd95-28c5" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="987c-fdfa-70ea-b75b" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a5a-e6a7-c7f9-6071" name="Elysian Veteran Squad" hidden="false" collective="false" type="unit">
@@ -5715,6 +5359,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="7.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5779,6 +5424,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="7.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4392-2186-a1ab-1a3a" name="Veteran w/ Vox-caster" page="0" hidden="false" collective="false" type="upgrade">
@@ -5838,6 +5484,7 @@
                       <costs>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="dd28-5728-2c8b-76c0" name="Lasgun" hidden="false" collective="false" type="upgrade">
@@ -5862,6 +5509,7 @@
                       <costs>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -5873,6 +5521,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="12.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2f30-5bb5-0d49-3db1" name="Veteran w/ Special Weapon" page="0" hidden="false" collective="false" type="upgrade">
@@ -5906,6 +5555,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="7.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8635-7eb5-d46b-6c46" name="Veteran Weapon Team" page="0" hidden="false" collective="false" type="upgrade">
@@ -5959,6 +5609,7 @@
                       <costs>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="da7d-76d9-a38e-ee43" name="Lasgun" hidden="false" collective="false" type="upgrade">
@@ -5983,6 +5634,7 @@
                       <costs>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -6003,6 +5655,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="14.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="05fd-2c40-1dfb-7272" name="Veteran W/ Heavy Flamer" page="0" hidden="false" collective="false" type="upgrade">
@@ -6039,6 +5692,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="7.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d4c4-02c8-21dc-0abc" name="Veteran w/ Shotgun" page="0" hidden="false" collective="false" type="upgrade">
@@ -6075,6 +5729,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="7.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ef69-e6cc-0536-28cf" name="Veteran w/ Breacher Charge" page="0" hidden="false" collective="false" type="upgrade">
@@ -6128,6 +5783,7 @@
                       <costs>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="98ae-8222-29d8-d5b8" name="Lasgun" hidden="false" collective="false" type="upgrade">
@@ -6152,6 +5808,7 @@
                       <costs>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="pts" costTypeId="points" value="0.0"/>
+                        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -6174,6 +5831,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="7.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6181,10 +5839,28 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="a25f-ef0a-666f-3dd9" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2f88-979f-9415-a384" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af1d-8a5b-23ea-2494" name="Elysian Command Squad" hidden="false" collective="false" type="unit">
@@ -6315,6 +5991,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="12.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a6e3-bc48-93f3-2eef" name="Veteran" page="0" hidden="false" collective="false" type="upgrade">
@@ -6397,6 +6074,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="7.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="edd5-08be-6012-817c" name="Veteran w/ Medi-pack" page="0" hidden="false" collective="false" type="upgrade">
@@ -6485,6 +6163,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="12.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1d7d-7b92-0009-15c6" name="Veteran w/ Regimental Standard" page="0" hidden="false" collective="false" type="upgrade">
@@ -6530,6 +6209,7 @@
                   <costs>
                     <cost name="pts" costTypeId="points" value="5.0"/>
                     <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6596,6 +6276,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="7.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7fe4-e4ef-cec9-89a3" name="Veteran w/ Special Weapon" page="0" hidden="false" collective="false" type="upgrade">
@@ -6650,6 +6331,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="7.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1f0a-c3dc-fd15-c37b" name="Veteran Weapon Team" page="0" hidden="false" collective="false" type="upgrade">
@@ -6704,6 +6386,7 @@
               <costs>
                 <cost name="pts" costTypeId="points" value="14.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6711,10 +6394,28 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="852c-201a-66a4-54f3" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2593-524c-3754-2047" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c8ab-2564-efd1-9dc4" name="Elysian Drop Sentinels" hidden="false" collective="false" type="unit">
@@ -6812,7 +6513,7 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="points" value="20">
+                    <modifier type="set" field="points" value="15">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -6849,10 +6550,27 @@
               </constraints>
               <categoryLinks/>
             </entryLink>
+            <entryLink id="9611-ac7f-54b3-f7e1" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e68c-8390-c981-9833" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
             <cost name="pts" costTypeId="points" value="40.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6861,6 +6579,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1248-7fe5-d1bb-6bd4" name="Elysian Platoon Commander" hidden="false" collective="false" type="model">
@@ -6915,7 +6634,7 @@
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2016-c926-3aee-6756" name="Laspistol" hidden="false" collective="false">
+        <selectionEntryGroup id="2016-c926-3aee-6756" name="Laspistol" hidden="false" collective="false" defaultSelectionEntryId="6c87-20bf-9b53-bd41">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7005,6 +6724,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2d7f-80ee-01b4-8b8a" name="The Laurels of Command" hidden="false" collective="false" type="upgrade">
@@ -7040,6 +6760,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="78dd-e061-a7bc-78a8" name="The Blade of Conquest" hidden="false" collective="false" type="upgrade">
@@ -7081,6 +6802,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c0da-59c2-02e8-fc27" name="Kurov&apos;s Aquila" hidden="false" collective="false" type="upgrade">
@@ -7116,6 +6838,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2a15-6445-9faa-b726" name="The Dagger of Tu&apos;Sakh" hidden="false" collective="false" type="upgrade">
@@ -7143,6 +6866,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ea05-918e-66b0-1b86" name="The Deathmask of Ollanius" hidden="false" collective="false" type="upgrade">
@@ -7170,6 +6894,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7255,10 +6980,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="b1ec-44e8-890e-45e2" name="Is A Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="95f6-4244-6abc-4b5a" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="pts" costTypeId="points" value="30.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6917-c69e-d9c7-0106" name="Elysian Sniper Squad" hidden="false" collective="false" type="unit">
@@ -7350,14 +7092,33 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="5.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="57b0-9433-5cb2-1337" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5bd9-c151-d93e-e337" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7296-7ca8-0463-d0ea" name="Elysian Heavy Weapon Squad" hidden="false" collective="false" type="unit">
@@ -7440,14 +7201,33 @@
           <costs>
             <cost name="pts" costTypeId="points" value="5.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="77f9-e8b2-2186-a2f4" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fd3b-82dd-c83d-d7da" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="787c-9abf-77a1-abb2" name="Valkyrie Sky Talon" hidden="false" collective="false" type="model">
@@ -7585,10 +7365,27 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="45a1-312c-2dc4-bdc6" name="Unit has battle honors?" hidden="false" targetId="4763-757f-499f-d998" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c5f2-d340-2998-8c6b" name="Battle Honors" hidden="false" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="10.0"/>
         <cost name="pts" costTypeId="points" value="130.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6ee-92a0-4d0b-0e13" name="Lasgun" hidden="false" collective="true" type="upgrade">
@@ -7611,6 +7408,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f848-4032-7dd1-fd34" name="Frag Grenades" hidden="false" collective="true" type="upgrade">
@@ -7633,6 +7431,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f1e2-96a9-3dfc-c7d7" name="Breacher Charge" hidden="false" collective="false" type="upgrade">
@@ -7665,6 +7464,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="25.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c10-2808-861b-5a07" name="Shotgun" hidden="false" collective="true" type="upgrade">
@@ -7687,6 +7487,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="abeb-d969-0146-1d90" name="Display Elysian Orders" hidden="false" collective="false" type="upgrade">
@@ -7747,6 +7548,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bb82-af7a-a705-e174" name="Krak Grenades" hidden="false" collective="true" type="upgrade">
@@ -7769,6 +7571,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9dfe-e2ab-ed06-888e" name="Warlord" hidden="false" collective="false" type="upgrade">
@@ -7794,6 +7597,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="37a9-7131-2cbc-162b" name="Regimental Doctrine" hidden="false" collective="false" type="upgrade">
@@ -7824,6 +7628,7 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7be-7049-0cc9-dcf3" name="Imperial Commander&apos;s Armoury" hidden="false" collective="false" type="upgrade">
@@ -7845,7 +7650,7 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3bab-2e6d-bf34-fa32" name="Additional relics" hidden="false" collective="false">
+        <selectionEntryGroup id="3bab-2e6d-bf34-fa32" name="Additional relics" hidden="false" collective="false" defaultSelectionEntryId="e317-fbf3-60b6-4691">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7879,6 +7684,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e869-2361-2a53-be04" name="2 additional Heirloom of Conquest, -3 CP" hidden="false" collective="false" type="upgrade">
@@ -7904,6 +7710,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -7915,6 +7722,227 @@
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4068-03ef-f2e9-1d58" name="Relic: Kurov&apos;s Aquila" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ab7c-54da-9104-f678" name="Kurov&apos;s Aquila" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="OFFICERS only. Each time your opponent uses a Stratagem, roll a D6. On a 5+ you gain 1 Command Point."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adc3-d7b2-b51f-ecaa" type="notInstanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="01c0-d201-80c2-8120" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b317-c165-a7d5-0388" name="Relic: The Blade of Conquest" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6407-dbc9-5225-e172" name="The Blade of Conquest" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Model with power sword only. The Blade of Conquest replaces the model’s power sword and has the following profile:"/>
+          </characteristics>
+        </profile>
+        <profile id="6c07-1b98-4966-d2f4" name="The Blade of Conquest" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+            <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
+            <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
+            <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
+            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d7c6-c739-3cad-2942" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1a31-5371-2f9a-9234" name="Relic: The Dagger of Tu&apos;Sakh" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="09b6-7ed9-0302-c44a" name="The Dagger of Tu&apos;Sakh" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY OFFICER model only. During deployment, you can set up the bearer and one INFANTRY unit from your army behind enemy lines instead of placing them on the battlefield. The infantry unit must have the same &lt;REGIMENT&gt; keyword as the bearer if the bearer has one.At the end of any of your Movement phases these units can launch their daring attack – set them up within 3&quot; of each other, anywhere on the battlefield that is wholly within 6&quot; of any battlefield edge and more than 9&quot; away from any enemy models."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5435-b219-697d-6ba7" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8802-85b0-d3d3-6158" name="Relic: The Deathmask of Ollanius" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b597-deef-89c4-6d5a" name="The Deathmask of Ollanius" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY model only. The bearer of this item has a 4+ invulnerable save. In addition, once per game, at the start of any of your turns, the bearer may immediately heal D3 wounds."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f2bf-f7c0-0594-4eae" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="25d0-9bd6-7b74-98f4" name="Relic: The Emperor&apos;s Benediction" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f48f-b143-3763-72c5" name="The Emperor&apos;s Benediction" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="COMMISSAR or LORD COMMISSAR with a bolt pistol only. The Emperor’s Benediction replaces the model’s bolt pistol and has the following profile:"/>
+          </characteristics>
+        </profile>
+        <profile id="164d-7f29-3163-a82c" name="The Emperor&apos;s Benediction" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 3"/>
+            <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
+            <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+            <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
+            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can target a Character even if it is not the closest enemy unit, unless the bearer is within 1&quot; of an enemy unit."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d90-89eb-8844-6deb" type="notInstanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5dde-78c0-09be-4526" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac59-27a4-14ff-220f" name="Relic: The Laurels of Command" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="16c4-af45-b201-6ba5" name="The Laurels of Command" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="OFFICER with Voice of Command ability only. Roll a dice each time the bearer issues an order to a friendly &lt;REGIMENT&gt;unit within 6&quot; of them. On a 4+ the bearer can immediately issue another order to the same unit. This does not count towards the maximum number of orders this model may issue each turn."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adc3-d7b2-b51f-ecaa" type="notInstanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7310-3f13-5a96-2e64" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -7950,8 +7978,9 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
+            <cost name="pts" costTypeId="points" value="12.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8614-c8e3-0fb3-52a2" name="2x Multiple Rocket Pods" page="0" hidden="false" collective="false" type="upgrade">
@@ -7976,6 +8005,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="16.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8022,6 +8052,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="5.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8032,7 +8063,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="points" value="20">
+            <modifier type="set" field="points" value="15">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -8149,6 +8180,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8268,6 +8300,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="3.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b6be-497a-f762-b9e8" name="Lascutter" hidden="false" collective="false" type="upgrade">
@@ -8300,6 +8333,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="10.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8342,7 +8376,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="points" value="7">
+            <modifier type="set" field="points" value="6">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -8409,6 +8443,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="3.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a4d2-1ea1-d35f-c368" name="Lascutter" hidden="false" collective="false" type="upgrade">
@@ -8441,6 +8476,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="10.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8483,7 +8519,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="points" value="7">
+            <modifier type="set" field="points" value="6">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -8529,6 +8565,7 @@
           <costs>
             <cost name="pts" costTypeId="points" value="60.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a120-fcac-e340-c270" name="2x Multiple Rocket Pods" page="0" hidden="false" collective="false" type="upgrade">
@@ -8553,13 +8590,14 @@
           <costs>
             <cost name="pts" costTypeId="points" value="16.0"/>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6a6e-e0ec-babc-6703" name="Heirlooms of Conquest" hidden="false" collective="false">
+    <selectionEntryGroup id="6a6e-e0ec-babc-6703" name="Heirlooms of Conquest" hidden="true" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -8571,7 +8609,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d7be-7049-0cc9-dcf3" type="equalTo"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6249-6db8-961e-cf23" type="equalTo"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9dfe-e2ab-ed06-888e" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8580,7 +8618,7 @@
         <modifier type="decrement" field="e685-3d4e-78d3-e07a" value="1">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6249-6db8-961e-cf23" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9dfe-e2ab-ed06-888e" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -8600,227 +8638,80 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e685-3d4e-78d3-e07a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e685-3d4e-78d3-e07a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9620-d327-7df3-43e0" type="max"/>
       </constraints>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="e85d-9a2a-eb42-47cb" name="The Emperor&apos;s Benediction" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="da0b-e89d-500b-7c2a" name="The Emperor&apos;s Benediction" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="COMMISSAR or LORD COMMISSAR with a bolt pistol only. The Emperor’s Benediction replaces the model’s bolt pistol and has the following profile:"/>
-              </characteristics>
-            </profile>
-            <profile id="5e7e-5b41-3744-a58a" name="The Emperor&apos;s Benediction" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol 3"/>
-                <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="4"/>
-                <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
-                <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="2"/>
-                <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="This weapon can target a Character even if it is not the closest enemy unit, unless the bearer is within 1&quot; of an enemy unit."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2d90-89eb-8844-6deb" type="notInstanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dffe-2221-33e3-30f0" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2baf-f78a-e1ee-eb3f" name="The Laurels of Command" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="9cb2-8edf-0c08-362d" name="The Laurels of Command" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="OFFICER with Voice of Command ability only. Roll a dice each time the bearer issues an order to a friendly &lt;REGIMENT&gt;unit within 6&quot; of them. On a 4+ the bearer can immediately issue another order to the same unit. This does not count towards the maximum number of orders this model may issue each turn."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adc3-d7b2-b51f-ecaa" type="notInstanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0e9e-2413-9cd9-4a14" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c335-beb3-a6b5-43f3" name="The Blade of Conquest" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="1a30-a8b0-6fd2-ccd3" name="The Blade of Conquest" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Model with power sword only. The Blade of Conquest replaces the model’s power sword and has the following profile:"/>
-              </characteristics>
-            </profile>
-            <profile id="53bb-f9b6-799a-a13e" name="The Blade of Conquest" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
-                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
-                <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
-                <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-4"/>
-                <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
-                <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f5a8-78cc-5a41-00dd" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="91ff-e116-e0a5-e883" name="Kurov&apos;s Aquila" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="8de4-de7e-2c32-7835" name="Kurov&apos;s Aquila" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="OFFICERS only. Each time your opponent uses a Stratagem, roll a D6. On a 5+ you gain 1 Command Point."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="adc3-d7b2-b51f-ecaa" type="notInstanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d611-048a-828d-6465" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6e03-1571-d20f-9edd" name="The Dagger of Tu&apos;Sakh" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="0bed-9252-63e4-079a" name="The Dagger of Tu&apos;Sakh" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY OFFICER model only. During deployment, you can set up the bearer and one INFANTRY unit from your army behind enemy lines instead of placing them on the battlefield. The infantry unit must have the same &lt;REGIMENT&gt; keyword as the bearer if the bearer has one.At the end of any of your Movement phases these units can launch their daring attack – set them up within 3&quot; of each other, anywhere on the battlefield that is wholly within 6&quot; of any battlefield edge and more than 9&quot; away from any enemy models."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a8f-a942-78f8-ccd0" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b3c8-2191-196a-850b" name="The Deathmask of Ollanius" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="a217-4469-23ab-3132" name="The Deathmask of Ollanius" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="INFANTRY model only. The bearer of this item has a 4+ invulnerable save. In addition, once per game, at the start of any of your turns, the bearer may immediately heal D3 wounds."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="65a8-0553-657c-e348" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="a761-9ce0-44ff-51a3" name="Relic: Kurov&apos;s Aquila" hidden="false" targetId="4068-03ef-f2e9-1d58" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a24e-bb81-64a7-7e63" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9bf1-6e61-0aeb-d255" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dd1a-471f-862c-fdc4" name="Relic: The Blade of Conquest" hidden="false" targetId="b317-c165-a7d5-0388" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6480-b68d-2721-7d5e" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f507-64a6-a109-0a3a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="cb95-3927-8394-17e2" name="Relic: The Dagger of Tu&apos;Sakh" hidden="false" targetId="1a31-5371-2f9a-9234" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2167-af14-7a5d-235f" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="beef-7b7b-0f0e-0d9a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f8c6-86ae-7a5b-27b2" name="Relic: The Deathmask of Ollanius" hidden="false" targetId="8802-85b0-d3d3-6158" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c972-9cdb-77c7-765a" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="03e9-dcb7-0ea3-907c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="617a-a677-9edd-7b3c" name="Relic: The Emperor&apos;s Benediction" hidden="false" targetId="25d0-9bd6-7b74-98f4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38f7-7bc9-bc7e-ee83" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9ecb-dc2a-a781-e808" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="21c2-450a-09b7-d524" name="Relic: The Laurels of Command" hidden="false" targetId="ac59-27a4-14ff-220f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b66f-ac23-0342-ddc1" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e4ac-a77d-be08-9edf" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="21a1-cfa7-a290-45f7" name="Warlord Traits" hidden="false" collective="false">
       <profiles/>
@@ -8884,6 +8775,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="dbb0-e5f3-9777-2452" name="Old Grudges" hidden="false" collective="false" type="upgrade">
@@ -8911,6 +8803,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="849e-c14e-9629-f575" name="Implacable Determination" hidden="false" collective="false" type="upgrade">
@@ -8938,6 +8831,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6dcb-caf6-5657-aeef" name="Draconian Disiplinarian" hidden="false" collective="false" type="upgrade">
@@ -8965,6 +8859,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="409a-6da5-2217-627c" name="Bellowing Voice" hidden="false" collective="false" type="upgrade">
@@ -8992,6 +8887,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c247-cdb3-37fb-466f" name="Master of Command" hidden="false" collective="false" type="upgrade">
@@ -9019,6 +8915,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9063,6 +8960,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dcbe-ff42-5cf6-453c" name="Brood Brothers" hidden="false" collective="false" type="upgrade">
@@ -9080,6 +8978,7 @@
           <costs>
             <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

@@ -23,21 +23,21 @@ Tyranids*   @GenWilhelm
 # Imperium
 *Adeptus\ Custodes.cat            @WindstormSCR
 *Adeptus\ Mechanicus.cat          @Thairne
-*Adeptus\ Titanicus.cat           @Kohato
+*Adeptus\ Titanicus.cat           @DrTobogganMD
 *Dark\ Angels.cat                 @Thairne
-*Questor\ Imperialis.cat          @Kohato
-*Blood\ Angels.cat                @Crowbar90
-*FW\ Adeptus\ Astartes.cat        @Crowbar90
-*Legion\ of\ the\ Damned.cat      @Crowbar90
+*Questor\ Imperialis.cat          @DrTobogganMD
+*Blood\ Angels.cat                @alphalas
+*FW\ Adeptus\ Astartes.cat        @WindstormSCR
+*Legion\ of\ the\ Damned.cat      @alphalas
 *Deathwatch.cat                   @acebaur
-*Space\ Marines.cat               @flakpanda
+*Space\ Marines.cat               @flakpanda @WindstormSCR
 *FW\ Death\ Korps\ of\ Krieg.cat  @CrusherJoe @alphalas
 *Grey\ Knights.cat                @tekton
 *Space\ Wolves.cat                @CrusherJoe
 *Elucidian\ Starstriders          @GenWilhelm
 
 # Other Xenos
-Necrons.cat        @Kohato
+Necrons.cat        @DrTobogganMD
 Orks.cat           @tag8833
 T?au\ Empire.cat  @amis92
 # the above question mark is a hack until GitHub fixes support for single quotes in CODEOWNERS
